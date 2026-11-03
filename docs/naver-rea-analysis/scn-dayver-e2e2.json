@@ -1,0 +1,28 @@
+{
+  "browser": { "mode": "launch", "executable_path": "/usr/bin/chromium", "headless": true },
+  "command_timeout_ms": 60000,
+  "start_url": { "url": "http://localhost:3000/login?next=/cafe/create" },
+  "environment": { "locale": "ko-KR", "timezone": "Asia/Seoul", "viewport": {"width": 1440, "height": 1000} },
+  "actions": [
+    { "step_id": "login-id", "action": "fill", "locator": {"kind":"css","selector":"#username"}, "value": {"source":"literal","value":"haru"}, "timeout_ms": 20000 },
+    { "step_id": "login-pw", "action": "fill", "locator": {"kind":"css","selector":"#password"}, "value": {"source":"literal","value":"dayver1234"}, "timeout_ms": 20000 },
+    { "step_id": "login-submit", "action": "press", "locator": {"kind":"css","selector":"#password"}, "key": "Enter", "timeout_ms": 30000 },
+    { "step_id": "cafe-name", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"카페 이름"}, "value": {"source":"literal","value":"REA 분석 연구회"}, "timeout_ms": 30000 },
+    { "step_id": "cafe-slug", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"카페 주소"}, "value": {"source":"literal","value":"rea-lab"}, "timeout_ms": 20000 },
+    { "step_id": "cafe-cat", "action": "select_option", "locator": {"kind":"role","role":"combobox","name":"주제"}, "value": {"source":"literal","value":"취미"}, "timeout_ms": 20000 },
+    { "step_id": "cafe-desc", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"카페 소개"}, "value": {"source":"literal","value":"리버스 엔지니어링과 웹 구조 분석을 공부하는 카페입니다."}, "timeout_ms": 20000 },
+    { "step_id": "cafe-create", "action": "click", "locator": {"kind":"role","role":"button","name":"카페 만들기"}, "timeout_ms": 30000 },
+    { "step_id": "cafe-wait", "action": "wait_for_timeout", "duration_ms": 5000 },
+    { "step_id": "post-goto", "action": "goto", "destination": {"url":"http://localhost:3000/cafe/rea-lab/write"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "post-title", "action": "fill", "locator": {"kind":"css","selector":"input[name=title]"}, "value": {"source":"literal","value":"첫 모임 공지: REA 설치부터 시작합니다"}, "timeout_ms": 30000 },
+    { "step_id": "post-body", "action": "fill", "locator": {"kind":"css","selector":"textarea[name=content]"}, "value": {"source":"literal","value":"토요일 2시, 준비물은 노트북입니다."}, "timeout_ms": 20000 },
+    { "step_id": "post-submit", "action": "click", "locator": {"kind":"css","selector":"form button[type=submit]"}, "timeout_ms": 30000 },
+    { "step_id": "post-wait", "action": "wait_for_timeout", "duration_ms": 5000 },
+    { "step_id": "cart-goto", "action": "goto", "destination": {"url":"http://localhost:3000/shopping/cart"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "order", "action": "click", "locator": {"kind":"role","role":"button","name":"주문하기"}, "timeout_ms": 30000 },
+    { "step_id": "order-wait", "action": "wait_for_timeout", "duration_ms": 5000 },
+    { "step_id": "manage-goto", "action": "goto", "destination": {"url":"http://localhost:3000/cafe/rea-lab/manage"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "manage-settle", "action": "wait_for_timeout", "duration_ms": 2000 }
+  ],
+  "capture": { "events": ["page-errors"], "after_each_step": ["url"], "at_end": ["url", "screenshot"] }
+}

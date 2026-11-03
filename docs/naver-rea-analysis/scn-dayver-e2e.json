@@ -1,0 +1,33 @@
+{
+  "browser": { "mode": "launch", "executable_path": "/usr/bin/chromium", "headless": true },
+  "command_timeout_ms": 60000,
+  "start_url": { "url": "http://localhost:3000/login?next=/cafe/create" },
+  "environment": { "locale": "ko-KR", "timezone": "Asia/Seoul", "viewport": {"width": 1440, "height": 1000} },
+  "actions": [
+    { "step_id": "login-id", "action": "fill", "locator": {"kind":"css","selector":"#username"}, "value": {"source":"literal","value":"haru"}, "timeout_ms": 20000 },
+    { "step_id": "login-pw", "action": "fill", "locator": {"kind":"css","selector":"#password"}, "value": {"source":"literal","value":"dayver1234"}, "timeout_ms": 20000 },
+    { "step_id": "login-submit", "action": "press", "locator": {"kind":"css","selector":"#password"}, "key": "Enter", "timeout_ms": 30000 },
+    { "step_id": "cafe-name", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"카페 이름"}, "value": {"source":"literal","value":"REA 분석 연구회"}, "timeout_ms": 30000 },
+    { "step_id": "cafe-slug", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"카페 주소"}, "value": {"source":"literal","value":"rea-lab"}, "timeout_ms": 20000 },
+    { "step_id": "cafe-desc", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"카페 소개"}, "value": {"source":"literal","value":"리버스 엔지니어링과 웹 구조 분석을 공부하는 카페입니다."}, "timeout_ms": 20000 },
+    { "step_id": "cafe-create", "action": "click", "locator": {"kind":"role","role":"button","name":"카페 만들기"}, "timeout_ms": 30000 },
+    { "step_id": "cafe-wait", "action": "wait_for_timeout", "duration_ms": 4000 },
+    { "step_id": "blog-goto", "action": "goto", "destination": {"url":"http://localhost:3000/blog/write"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "blog-title", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"제목"}, "value": {"source":"literal","value":"Dayver 첫 글: 네이버 메인 구조 재해석기"}, "timeout_ms": 30000 },
+    { "step_id": "blog-body", "action": "fill", "locator": {"kind":"css","selector":"textarea"}, "value": {"source":"literal","value":"EAGER-DATA와 lazy 블록 API로 메인을 조립하는 방식이 인상적이었습니다.\n\n두 번째 문단입니다."}, "timeout_ms": 20000 },
+    { "step_id": "blog-publish", "action": "click", "locator": {"kind":"role","role":"button","name":"발행"}, "timeout_ms": 30000 },
+    { "step_id": "blog-wait", "action": "wait_for_timeout", "duration_ms": 4000 },
+    { "step_id": "mail-goto", "action": "goto", "destination": {"url":"http://localhost:3000/mail/write"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "mail-to", "action": "fill", "locator": {"kind":"role","role":"combobox","name":"받는사람"}, "value": {"source":"literal","value":"minsu@dayver.com"}, "timeout_ms": 30000 },
+    { "step_id": "mail-subject", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"제목"}, "value": {"source":"literal","value":"REA 스터디 일정"}, "timeout_ms": 20000 },
+    { "step_id": "mail-body", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"본문"}, "value": {"source":"literal","value":"민수님, 이번 주 토요일 2시에 카페에서 만나요."}, "timeout_ms": 20000 },
+    { "step_id": "mail-send", "action": "click", "locator": {"kind":"role","role":"button","name":"보내기"}, "timeout_ms": 30000 },
+    { "step_id": "mail-wait", "action": "wait_for_timeout", "duration_ms": 4000 },
+    { "step_id": "product-goto", "action": "goto", "destination": {"url":"http://localhost:3000/shopping/product/1"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "cart-add", "action": "click", "locator": {"kind":"role","role":"button","name":"장바구니"}, "timeout_ms": 30000 },
+    { "step_id": "cart-wait", "action": "wait_for_timeout", "duration_ms": 4000 },
+    { "step_id": "cart-goto", "action": "goto", "destination": {"url":"http://localhost:3000/shopping/cart"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "cart-settle", "action": "wait_for_timeout", "duration_ms": 2000 }
+  ],
+  "capture": { "events": ["page-errors"], "after_each_step": ["url"], "at_end": ["url", "screenshot", "accessibility"] }
+}

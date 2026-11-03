@@ -1,0 +1,5384 @@
+{
+ "corepack.json": {
+  "color": {
+   "TRADITIONAL_MARKET": {
+    "color-point-color": "#0C4E42",
+    "color-default-color": "#0C4E42",
+    "border-point-color": "#0C4E42",
+    "border-default-color": "#0C4E42",
+    "background-point-color": "#0C4E42",
+    "background-default-color": "#0C4E42",
+    "color-point-color-rgb": "12, 78, 66",
+    "color-default-color-rgb": "12, 78, 66",
+    "border-point-color-rgb": "12, 78, 66",
+    "border-default-color-rgb": "12, 78, 66",
+    "background-point-color-rgb": "12, 78, 66",
+    "background-default-color-rgb": "12, 78, 66",
+    "background-gradient-start-color": "#21C5B0",
+    "background-gradient-end-color": "#219CC5"
+   },
+   "MARKET": {
+    "color-point-color": "#02340F",
+    "color-default-color": "#02340F",
+    "border-point-color": "#02340F",
+    "border-default-color": "#02340F",
+    "background-point-color": "#02340F",
+    "background-default-color": "#02340F",
+    "color-point-color-rgb": "2, 52, 15",
+    "color-default-color-rgb": "2, 52, 15",
+    "border-point-color-rgb": "2, 52, 15",
+    "border-default-color-rgb": "2, 52, 15",
+    "background-point-color-rgb": "2, 52, 15",
+    "background-default-color-rgb": "2, 52, 15"
+   },
+   "NECESSITY": {
+    "color-point-color": "#02340F",
+    "color-default-color": "#02340F",
+    "border-point-color": "#02340F",
+    "border-default-color": "#02340F",
+    "background-point-color": "#02340F",
+    "background-default-color": "#02340F",
+    "color-point-color-rgb": "2, 52, 15",
+    "color-default-color-rgb": "2, 52, 15",
+    "border-point-color-rgb": "2, 52, 15",
+    "border-default-color-rgb": "2, 52, 15",
+    "background-point-color-rgb": "2, 52, 15",
+    "background-default-color-rgb": "2, 52, 15",
+    "background-gradient-start-color": "#F25773",
+    "background-gradient-end-color": "#FD5D62"
+   },
+   "DEPARTMENT": {
+    "color-point-color": "#7A51E3",
+    "color-default-color": "#7A51E3",
+    "border-point-color": "#7A51E3",
+    "border-default-color": "#7A51E3",
+    "background-point-color": "#7A51E3",
+    "background-default-color": "#7A51E3",
+    "color-point-color-rgb": "122, 81, 227",
+    "color-default-color-rgb": "122, 81, 227",
+    "border-point-color-rgb": "122, 81, 227",
+    "border-default-color-rgb": "122, 81, 227",
+    "background-point-color-rgb": "122, 81, 227",
+    "background-default-color-rgb": "122, 81, 227",
+    "background-gradient-start-color": "#AF7DE6",
+    "background-gradient-end-color": "#8452C6"
+   },
+   "OUTLET": {
+    "color-point-color": "#6455D6",
+    "color-default-color": "#6455D6",
+    "border-point-color": "#6455D6",
+    "border-default-color": "#6455D6",
+    "background-point-color": "#6455D6",
+    "background-default-color": "#6455D6",
+    "color-point-color-rgb": "100, 85, 214",
+    "color-default-color-rgb": "100, 85, 214",
+    "border-point-color-rgb": "100, 85, 214",
+    "border-default-color-rgb": "100, 85, 214",
+    "background-point-color-rgb": "100, 85, 214",
+    "background-default-color-rgb": "100, 85, 214",
+    "background-gradient-start-color": "#6A90DC",
+    "background-gradient-end-color": "#A263FF"
+   },
+   "STYLE": {
+    "color-point-color": "#C143E2",
+    "color-default-color": "#C143E2",
+    "border-point-color": "#C143E2",
+    "border-default-color": "#C143E2",
+    "background-point-color": "#C143E2",
+    "background-default-color": "#C143E2",
+    "color-point-color-rgb": "193, 67, 226",
+    "color-default-color-rgb": "193, 67, 226",
+    "border-point-color-rgb": "193, 67, 226",
+    "border-default-color-rgb": "193, 67, 226",
+    "background-point-color-rgb": "193, 67, 226",
+    "background-default-color-rgb": "193, 67, 226",
+    "background-gradient-start-color": "#BD57E3",
+    "background-gradient-end-color": "#7C2E99"
+   },
+   "BRAND_FASHION": {
+    "color-point-color": "#212121",
+    "color-default-color": "#212121",
+    "border-point-color": "#212121",
+    "border-default-color": "#212121",
+    "background-point-color": "#212121",
+    "background-default-color": "#212121",
+    "color-point-color-rgb": "33, 33, 33",
+    "color-default-color-rgb": "33, 33, 33",
+    "border-point-color-rgb": "33, 33, 33",
+    "border-default-color-rgb": "33, 33, 33",
+    "background-point-color-rgb": "33, 33, 33",
+    "background-default-color-rgb": "33, 33, 33",
+    "background-gradient-start-color": "#212121",
+    "background-gradient-end-color": "#000000"
+   },
+   "DESIGNER": {
+    "color-point-color": "#213573",
+    "color-default-color": "#213573",
+    "border-point-color": "#213573",
+    "border-default-color": "#213573",
+    "background-point-color": "#213573",
+    "background-default-color": "#213573",
+    "color-point-color-rgb": "33, 53, 115",
+    "color-default-color-rgb": "33, 53, 115",
+    "border-point-color-rgb": "33, 53, 115",
+    "border-default-color-rgb": "33, 53, 115",
+    "background-point-color-rgb": "33, 53, 115",
+    "background-default-color-rgb": "33, 53, 115",
+    "background-gradient-start-color": "#4E5BC1",
+    "background-gradient-end-color": "#3582D5"
+   },
+   "BEAUTY": {
+    "color-point-color": "#F446B6",
+    "color-default-color": "#F446B6",
+    "border-point-color": "#F446B6",
+    "border-default-color": "#F446B6",
+    "background-point-color": "#F446B6",
+    "background-default-color": "#F446B6",
+    "color-point-color-rgb": "244, 70, 182",
+    "color-default-color-rgb": "244, 70, 182",
+    "border-point-color-rgb": "244, 70, 182",
+    "border-default-color-rgb": "244, 70, 182",
+    "background-point-color-rgb": "244, 70, 182",
+    "background-default-color-rgb": "244, 70, 182",
+    "background-gradient-start-color": "#FF9D9D",
+    "background-gradient-end-color": "#FB5296"
+   },
+   "FOREIGN": {
+    "color-point-color": "#732938",
+    "color-default-color": "#732938",
+    "border-point-color": "#732938",
+    "border-default-color": "#732938",
+    "background-point-color": "#732938",
+    "background-default-color": "#732938",
+    "color-point-color-rgb": "115, 41, 56",
+    "color-default-color-rgb": "115, 41, 56",
+    "border-point-color-rgb": "115, 41, 56",
+    "border-default-color-rgb": "115, 41, 56",
+    "background-point-color-rgb": "115, 41, 56",
+    "background-default-color-rgb": "115, 41, 56",
+    "background-gradient-start-color": "#732937",
+    "background-gradient-end-color": "#3F0000"
+   },
+   "LOGISTICS": {
+    "color-point-color": "#2755a4",
+    "color-default-color": "#2755a4",
+    "border-point-color": "#2755a4",
+    "border-default-color": "#2755a4",
+    "background-point-color": "#2755a4",
+    "background-default-color": "#2755a4",
+    "color-point-color-rgb": "39, 85, 164",
+    "color-default-color-rgb": "39, 85, 164",
+    "border-point-color-rgb": "39, 85, 164",
+    "border-default-color-rgb": "39, 85, 164",
+    "background-point-color-rgb": "39, 85, 164",
+    "background-default-color-rgb": "39, 85, 164"
+   },
+   "GIFT": {
+    "color-point-color": "#03C75A",
+    "color-default-color": "#03C75A",
+    "border-point-color": "#03C75A",
+    "border-default-color": "#03C75A",
+    "background-point-color": "#03C75A",
+    "background-default-color": "#03C75A",
+    "color-point-color-rgb": "3, 199, 90",
+    "color-default-color-rgb": "3, 199, 90",
+    "border-point-color-rgb": "3, 199, 90",
+    "border-default-color-rgb": "3, 199, 90",
+    "background-point-color-rgb": "3, 199, 90",
+    "background-default-color-rgb": "3, 199, 90"
+   },
+   "FRESH": {
+    "color-point-color": "#71C223",
+    "color-default-color": "#71C223",
+    "border-point-color": "#71C223",
+    "border-default-color": "#71C223",
+    "background-point-color": "#71C223",
+    "background-default-color": "#71C223",
+    "color-point-color-rgb": "113, 194, 35",
+    "color-default-color-rgb": "113, 194, 35",
+    "border-point-color-rgb": "113, 194, 35",
+    "border-default-color-rgb": "113, 194, 35",
+    "background-point-color-rgb": "113, 194, 35",
+    "background-default-color-rgb": "113, 194, 35"
+   },
+   "BOOK": {
+    "color-point-color": "#43C75A",
+    "color-default-color": "#43C75A",
+    "border-point-color": "#43C75A",
+    "border-default-color": "#43C75A",
+    "background-point-color": "#43C75A",
+    "background-default-color": "#43C75A",
+    "color-point-color-rgb": "67, 199, 90",
+    "color-default-color-rgb": "67, 199, 90",
+    "border-point-color-rgb": "67, 199, 90",
+    "border-default-color-rgb": "67, 199, 90",
+    "background-point-color-rgb": "67, 199, 90",
+    "background-default-color-rgb": "67, 199, 90"
+   },
+   "KURLYNMART": {
+    "color-point-color": "#A24DCE",
+    "color-default-color": "#672091",
+    "border-point-color": "#A24DCE",
+    "border-default-color": "#672091",
+    "background-point-color": "#A24DCE",
+    "background-default-color": "#672091",
+    "color-point-color-rgb": "162, 77, 206",
+    "color-default-color-rgb": "103, 32, 145",
+    "border-point-color-rgb": "162, 77, 206",
+    "border-default-color-rgb": "103, 32, 145",
+    "background-point-color-rgb": "162, 77, 206",
+    "background-default-color-rgb": "103, 32, 145"
+   },
+   "TOMATO": {
+    "color-point-color": "#FA4328",
+    "color-default-color": "#FA4328",
+    "border-point-color": "#FA4328",
+    "border-default-color": "#FA4328",
+    "background-point-color": "#FA4328",
+    "background-default-color": "#FA4328",
+    "color-point-color-rgb": "250, 67, 40",
+    "color-default-color-rgb": "250, 67, 40",
+    "border-point-color-rgb": "250, 67, 40",
+    "border-default-color-rgb": "250, 67, 40",
+    "background-point-color-rgb": "250, 67, 40",
+    "background-default-color-rgb": "250, 67, 40"
+   }
+  }
+ },
+ "today-events": {
+  "titleInfo": {
+   "title": "오늘의 행사 놓치지 마세요!",
+   "highlights": [
+    "오늘의 행사"
+   ]
+  },
+  "demoType": "WOMEN1",
+  "events": [
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261029_117/17932821919199xHcG_PNG/EC8DB89.png",
+    "titleText": "달바 비건 워터풀 톤업 선크림 반값",
+    "headerText": "",
+    "labelText": "1+1",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6aa11c51c7bdbd78c0cb8c36?layerId=6ab9e9cf08b8c4f20151dd83&itemGroupId=6ad85ed8e8740741dce6d079&first=5750426971",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6aa11c51c7bdbd78c0cb8c36",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "HUB_PIPE_11801979",
+     "shpPromotionGroupId": "SHOPPING_FESTA_10929762",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261030_250/1793336349961bTie4_JPEG/EC8898ECA095.jpg",
+    "titleText": "로엠 올데이 벨티드 맥코트 20% 특가",
+    "headerText": "",
+    "labelText": "슈퍼적립",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6aa11c51c7bdbd78c0cb8c36?layerId=6ab9e87408b8c4f20151dd61&itemGroupId=6ad856a4372af778e5c539e5&first=13733882626",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6aa11c51c7bdbd78c0cb8c36",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "HUB_PIPE_11801979",
+     "shpPromotionGroupId": "SHOPPING_FESTA_10929762",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261029_183/1793281519234uJAbl_JPEG/EC8898ECA095.jpg",
+    "titleText": "마이리틀타이거 모래놀이 20%↓",
+    "headerText": "최저가",
+    "labelText": "",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6aa11c51c7bdbd78c0cb8c36?layerId=6ab9e9cf08b8c4f20151dd83&itemGroupId=6ad85ed8e8740741dce6d068&first=4480169606",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6aa11c51c7bdbd78c0cb8c36",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "HUB_PIPE_11801979",
+     "shpPromotionGroupId": "SHOPPING_FESTA_10929762",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261030_20/1793339742587jNXTJ_JPEG/EC8898ECA095.jpg",
+    "titleText": "락앤락 ~71% 세일+쿠폰 지급",
+    "headerText": "24시간만",
+    "labelText": "",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6acdc7c76bd75204c2b86657",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6acdc7c76bd75204c2b86657",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "BRAND_DAY_12035351",
+     "shpPromotionGroupId": "BRAND_DAY_10980866",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261030_93/1793339542739j8qBY_JPEG/EC8898ECA095.jpg",
+    "titleText": "엘레나 질 유산균 100주년 기획 핫딜",
+    "headerText": "",
+    "labelText": "오늘끝딜",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/promotion?type=WAFFLE&index=0&layerId=6adfefe1996f22323319fe39&itemGroupId=6adfefe1996f22323319fe45&first=13497624594",
+    "nlog": {
+     "contentsType": "banner",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": null,
+     "shpPromotionType": null,
+     "shpPromotionKey": null,
+     "shpPromotionGroupId": null,
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261028_248/1793159148627XdaLp_JPEG/EC8898ECA095.jpg",
+    "titleText": "매일유업 ~59% 지출광 타임 어택!",
+    "headerText": "",
+    "labelText": "쇼핑LIVE",
+    "isArrivalGuarantee": false,
+    "liveStartAt": "2026-11-02T10:00:00.462Z",
+    "landingUrl": "https://shoppinglive.naver.com/exhibition/3345?first=2065660&firstContentType=BROADCAST",
+    "nlog": {
+     "contentsType": "banner",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": null,
+     "shpPromotionType": null,
+     "shpPromotionKey": null,
+     "shpPromotionGroupId": null,
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261030_139/1793336518992Ga2xt_JPEG/EC8898ECA095.jpg",
+    "titleText": "마스마룰즈 미니 토트백 40,900원",
+    "headerText": "",
+    "labelText": "NEW",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6aa11c51c7bdbd78c0cb8c36?layerId=6ab9e87408b8c4f20151dd61&itemGroupId=6ad856a4372af778e5c539e5&first=13783133964",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6aa11c51c7bdbd78c0cb8c36",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "HUB_PIPE_11801979",
+     "shpPromotionGroupId": "SHOPPING_FESTA_10929762",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261030_290/1793332258679Ry1c4_JPEG/EC8898ECA095.jpg",
+    "titleText": "가히 율무 클렌징 브라이트너 최초 론칭",
+    "headerText": "",
+    "labelText": "신상위크",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://m.brand.naver.com/kahi/shoppingstory/detail?id=5003108717",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "5003108717",
+     "shpPromotionType": "STORY",
+     "shpPromotionKey": "NEW_WEEK_12035057",
+     "shpPromotionGroupId": "NEW_WEEK_10980787",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261029_110/17932824549422ciYH_PNG/EC8DB81.png",
+    "titleText": "레이디가구 ~79% 할인+구매왕 사은품",
+    "headerText": "",
+    "labelText": "브랜드DAY",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6acdd1706bd75204c2b8829c",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6acdd1706bd75204c2b8829c",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "BRAND_DAY_12035671",
+     "shpPromotionGroupId": "BRAND_DAY_10980516",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261029_190/1793282160253zphGQ_PNG/EC8DB87.png",
+    "titleText": "봄날엔 두바이 쫀득떡 3개 1만 원대",
+    "headerText": "",
+    "labelText": "",
+    "isArrivalGuarantee": true,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6aa11c51c7bdbd78c0cb8c36?layerId=6ab9e9cf08b8c4f20151dd83&itemGroupId=6ad85ed8e8740741dce6d07c&first=13380273515",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6aa11c51c7bdbd78c0cb8c36",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "HUB_PIPE_11801979",
+     "shpPromotionGroupId": "SHOPPING_FESTA_10929762",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261029_60/1793282529221qznHl_PNG/EC8DB81.png",
+    "titleText": "스타우브 전 상품 다시없는 빅세일",
+    "headerText": "~69%↓",
+    "labelText": "",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6acdc9d307b88360a2834c91",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6acdc9d307b88360a2834c91",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "BRAND_DAY_12035368",
+     "shpPromotionGroupId": "BRAND_DAY_10980854",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "68b07e53c252c66ded36d4a8",
+    "serviceEditorLayoutId": "3b5f4efc-e1c5-411a-a389-676efed96d3c",
+    "serviceEditorContentId": "6ae4260ba231930f2ad2f527",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261029_15/1793281746759cS3IU_PNG/EC8DB82.png",
+    "titleText": "스크럽 대디 UP TO 55%↓",
+    "headerText": "단 하루",
+    "labelText": "",
+    "isArrivalGuarantee": false,
+    "liveStartAt": null,
+    "landingUrl": "https://shopping.naver.com/event/6acdca5e14c78778b15dc0c9",
+    "nlog": {
+     "contentsType": "prom",
+     "shpChannelNo": null,
+     "shpChannelProductId": null,
+     "shpPromotionId": "6acdca5e14c78778b15dc0c9",
+     "shpPromotionType": "WAFFLE_MAKER",
+     "shpPromotionKey": "BRAND_DAY_12035380",
+     "shpPromotionGroupId": "BRAND_DAY_10978243",
+     "shpShortclipId": null,
+     "shpBroadcastId": null
+    }
+   }
+  ]
+ },
+ "service-shortcuts": {
+  "primaryVerticalShortcuts": [
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7616f16b0b5271b05b9e",
+    "id": "6ae2c25299587a3115a524e8",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "오늘끝딜",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261030_12/1793350492185QJ4nm_GIF/EC98A4EB8A98EB819DEB949C_ED80B5EBA781ED81AC_261102.gif",
+    "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2602-shopping-013&material=8015316576&target=https%3A%2F%2Fshopping.naver.com%2Fpromotion%3Ftype%3DWAFFLE%26index%3D0%26dtm_detail%3D8015316576%26dtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2602-shopping-013",
+    "mobileLandingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2602-shopping-013&material=8015316576&target=https%3A%2F%2Fshopping.naver.com%2Fpromotion%3Ftype%3DWAFFLE%26index%3D0%26dtm_detail%3D8015316576%26dtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2602-shopping-013",
+    "serviceCode": "PROMOTION",
+    "nudgeOrder": 3,
+    "nudgeMessage": "순대국 1팩 4천원대! ",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7616f16b0b5271b05b9e",
+    "id": "6ae3fd16f1b8f35563a48180",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "컬리N마트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260930_211/17907489203230uMFs_PNG/ECBBACEBA6AC.png",
+    "landingUrl": "https://shopping.naver.com/kurlynmart/home",
+    "mobileLandingUrl": "https://shopping.naver.com/kurlynmart/home",
+    "serviceCode": "KURLYNMART",
+    "nudgeOrder": 4,
+    "nudgeMessage": "멤버십 2만 원 무료배송",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7616f16b0b5271b05b9e",
+    "id": "6ae190a9f1b8f3556399c257",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "넾다취미템",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261028_143/1793167526824rGDrm_GIF/4_1102-1103_EC97ACEAB080EC839DED999C%2BEC849CEBB88CEAB480_ED.gif",
+    "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6ac49ebc6bd75204c2b0a994%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "mobileLandingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6ac49ebc6bd75204c2b0a994%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "serviceCode": "6ac49ebc6bd75204c2b0a994",
+    "nudgeOrder": 7,
+    "nudgeMessage": "주말에 뭐할지 걱정 끝!",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7616f16b0b5271b05b9e",
+    "id": "6ae1ad6699587a3115a23a01",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "지금배달",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260728_69/1785205991880Ol38V_PNG/favicon_ECA780EAB888EBB0B0EB8BAC.png",
+    "landingUrl": "https://shopping.naver.com/market/home",
+    "mobileLandingUrl": "https://shopping.naver.com/market/home",
+    "serviceCode": "MARKET",
+    "nudgeOrder": 10,
+    "nudgeMessage": "20% 할인받고 장보기",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7616f16b0b5271b05b9e",
+    "id": "6ae4491ef1b8f35563a77f8f",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "넾다멤버십",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261030_108/17933458207932jd6b_PNG/ED80B5EBA781ED81AC_144x144.png",
+    "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6aa11c72e262df6b5cd65e3f%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "mobileLandingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6aa11c72e262df6b5cd65e3f%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "serviceCode": "6aa11c72e262df6b5cd65e3f",
+    "nudgeOrder": 9,
+    "nudgeMessage": "단하루 멤버십 특별적립!",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7616f16b0b5271b05b9e",
+    "id": "6ae190c1f1b8f3556399c259",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "넾다댕냥템",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261028_188/1793167550169BqvIr_PNG/6_%2BEBB098EBA0A4EB8F99EBACBC%2BEC849CEBB88CEAB480%2B281EC97B.png",
+    "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6abda64914c78778b14ea9e5%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "mobileLandingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6abda64914c78778b14ea9e5%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "serviceCode": "6abda64914c78778b14ea9e5",
+    "nudgeOrder": 8,
+    "nudgeMessage": "펫 용품 특가 떴다!",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   }
+  ],
+  "marketingShortcuts": [
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a762cf16b0b5271b05ba1",
+    "id": "6ae19226f1b8f3556399c969",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "넾다세일",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261028_124/17931679070706SsrH_GIF/1026-1101_ED80B5EBA781ED81AC_120x120_EC84A0ECB0A9EC889C%2BECBF.gif",
+    "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6aa11c29c7bdbd78c0cb8c33%3FlayerId%3D6ac4ae1f758caec6df3b17ab%26dtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "mobileLandingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6aa11c29c7bdbd78c0cb8c33%3FlayerId%3D6ac4ae1f758caec6df3b17ab%26dtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "serviceCode": "6aa11c29c7bdbd78c0cb8c33",
+    "nudgeOrder": 1,
+    "nudgeMessage": "선착순 쿠폰 선점하기!",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a762cf16b0b5271b05ba1",
+    "id": "6ae1924bf1b8f3556399c96b",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "넾다가구",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261028_90/1793167943948RndhS_PNG/2_EAB080EAB5ACEBA6ACEBB999%2BEC849CEBB88CEAB480%2B282EC97B4.png",
+    "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6abda5b514c78778b14ea9e0%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "mobileLandingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6abda5b514c78778b14ea9e0%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "serviceCode": "6abda5b514c78778b14ea9e0",
+    "nudgeOrder": 5,
+    "nudgeMessage": "침대부터 감성 소파까지!",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a762cf16b0b5271b05ba1",
+    "id": "6ae1926ff1b8f3556399c981",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "넾다모바일",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261029_103/1793283218741JBXUy_PNG/3_EBAAA8EBB094EC9DBC282EC97B4%2B3EBB28829_ED80B5EBA781ED8.png",
+    "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6ae2e90099587a3115a6a68d%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "mobileLandingUrl": "https://mkt.naver.com/p1/atrb?channel_id=ns_quick&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6ae2e90099587a3115a6a68d%3Fdtm_source%3Dns_quick%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+    "serviceCode": "6ae2e90099587a3115a6a68d",
+    "nudgeOrder": 11,
+    "nudgeMessage": "핸드폰 바꿀 사람 주목!",
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   }
+  ],
+  "verticalShortcuts": [
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6a4b5bec14fad950a9a1310d",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "쇼핑라이브",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260527_134/17798493059702sq52_PNG/favicon_EC87BCED9591EB9DBCEC9DB4EBB88C.png",
+    "landingUrl": "https://shoppinglive.naver.com/home",
+    "mobileLandingUrl": "https://shoppinglive.naver.com/home",
+    "serviceCode": "SELECTIVE",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6a5056dfed642b19b9c1ecf5",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "N배송",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260527_126/1779849296730ApbWS_PNG/favicon_NEBB0B0EC86A1.png",
+    "landingUrl": "https://shopping.naver.com/logistics/home",
+    "mobileLandingUrl": "https://shopping.naver.com/logistics/home",
+    "serviceCode": "LOGISTICS",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6a705979ac7f3201bdbab181",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "N여행핫딜",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260518_50/17790748190318iQSl_PNG/NE1848BE185A7E18492E185A2E186BCE18492E185A1E186BAE184.png",
+    "landingUrl": "https://shopping.naver.com/festa/onsale/692848786f1afd11fcaf4ce4",
+    "mobileLandingUrl": "https://shopping.naver.com/festa/onsale/692848786f1afd11fcaf4ce4",
+    "serviceCode": "TRAVEL",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": "10007382",
+     "promGrpId": null,
+     "promKey": "ETC_10985680",
+     "promType": "WAFFLE_MAKER"
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6a0a8cf3f7b5214fe824d0cb",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "슈퍼적립",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260527_73/1779849274673z5Ic6_PNG/favicon_EC8A88ED8DBCECA081EBA6BD.png",
+    "landingUrl": "https://shopping.naver.com/super-point/home",
+    "mobileLandingUrl": "https://shopping.naver.com/super-point/home",
+    "serviceCode": "SUPER_POINT",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6a4782c809f4815aacba0157",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "하이엔드",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260527_242/1779849254031dKVjD_PNG/favicon_ED9598EC9DB4EC9794EB939C.png",
+    "landingUrl": "https://shopping.naver.com/highend/home",
+    "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+    "serviceCode": "HIGHEND",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6adecfa1e8740741dc067ba3",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "슈퍼특가",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260527_90/1779849333859z78Eo_PNG/favicon_EC8A88ED8DBCED8AB9EAB080.png",
+    "landingUrl": "https://shopping.naver.com/event/6ad1e2c672af0a691fd0ebed",
+    "mobileLandingUrl": "https://shopping.naver.com/event/6ad1e2c672af0a691fd0ebed",
+    "serviceCode": "SUPER_SALE",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": "6ad1e2c672af0a691fd0ebed",
+     "promGrpId": "SUPER_DEAL_10970256",
+     "promKey": "SUPER_DEAL_12046305",
+     "promType": "WAFFLE_MAKER"
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6a0a8df9f7b5214fe824d0d4",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "패션타운",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260527_28/1779849223876ek6AY_PNG/favicon_ED8CA8EC8598ED8380EC9AB4.png",
+    "landingUrl": "https://shopping.naver.com/window/main/fashion-group",
+    "mobileLandingUrl": "https://shopping.naver.com/window/main/fashion-group",
+    "serviceCode": "FASHION_GROUP",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6adeb2fd996f22323313fd54",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "노크잇",
+    "imageUrl": "https://shop-phinf.pstatic.net/20261026_292/1792979636004ynLMw_PNG/favicon_EB85B8ED81ACEC9E87.png%2BEAB09CEC9DB8ED9994.png",
+    "landingUrl": "https://shopping.naver.com/knockit/home",
+    "mobileLandingUrl": "https://shopping.naver.com/knockit/home",
+    "serviceCode": "KNOCKIT",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6a4f6404dd145e1e7243584b",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "나란히가게",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260527_80/1779849194364HjdfT_PNG/favicon_EB8298EB9E80ED9E88EAB080EAB28C.png",
+    "landingUrl": "https://shopping.naver.com/festa/onsale/643f57faa50dc72573b5dfa6",
+    "mobileLandingUrl": "https://shopping.naver.com/festa/onsale/643f57faa50dc72573b5dfa6",
+    "serviceCode": "SMESTORE",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   },
+   {
+    "serviceEditorPanelId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorLayoutId": "6a0a75fef16b0b5271b05b9b",
+    "serviceEditorContentId": "6a0a7634f16b0b5271b05ba4",
+    "id": "6a0a8dbef7b5214fe824d0d2",
+    "type": "SERVICE_SHORTCUTS",
+    "name": "선물샵",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260527_189/1779849242084U67Dh_PNG/favicon_EC84A0EBACBCEC83B5.png",
+    "landingUrl": "https://shopping.naver.com/gift/home",
+    "mobileLandingUrl": "https://shopping.naver.com/gift/home",
+    "serviceCode": "GIFT",
+    "nudgeOrder": null,
+    "nudgeMessage": null,
+    "promotionNlog": {
+     "promId": null,
+     "promGrpId": null,
+     "promKey": null,
+     "promType": null
+    }
+   }
+  ]
+ },
+ "store-curation": {
+  "displayType": "RANKING",
+  "dataType": "aitems",
+  "themeId": "at-7f6373db",
+  "categoryName": "생활/건강",
+  "tagName": "차량 수납·정리",
+  "pageId": "90108561-3b16-454f-b6e5-ad7ed1037d16",
+  "titleInfos": [
+   {
+    "title": "오염 걱정 없이 깔끔하게 유지하는 차량 수납·정리",
+    "highlights": [
+     "차량 수납·정리"
+    ]
+   }
+  ],
+  "historyInfo": null,
+  "stores": [
+   {
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "accountNo": 500178760,
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://brand.naver.com/biocarmat",
+    "representImageUrl": "http://shop1.phinf.naver.net/20230623_226/1687478859090XEkmF_JPEG/88614754634798934_1707679492.jpg",
+    "description": "자동차매트 전문기업 바이오카매트 본사 쇼핑몰",
+    "channelProductIds": [
+     9396508535,
+     11386234309,
+     12552390632,
+     4089727741,
+     4736850748,
+     2993409416,
+     7662715763,
+     9396515206,
+     5071464654,
+     2361758853,
+     4699496170,
+     4911050056
+    ]
+   },
+   {
+    "channelNo": 100610871,
+    "channelUid": "2sWDyY3ZhRQvbIs8yUxgp",
+    "accountNo": 100559141,
+    "channelName": "비젠티엄",
+    "channelSiteFullUrl": "https://brand.naver.com/vsentium",
+    "representImageUrl": "http://shop1.phinf.naver.net/20251015_49/1760492458361s09IQ_JPEG/4123905236116609_881293930.jpg",
+    "description": "프리미엄 카매트, 실용적인 TPE 카매트",
+    "channelProductIds": [
+     6562307195,
+     11988966777,
+     12940047268,
+     5712422980
+    ]
+   },
+   {
+    "channelNo": 100266952,
+    "channelUid": "2sWDxMtjAkJacMYVnzjfc",
+    "accountNo": 100239955,
+    "channelName": "카빛나",
+    "channelSiteFullUrl": "https://smartstore.naver.com/carbitna",
+    "representImageUrl": "http://shop1.phinf.naver.net/20210304_228/1614841552813DuBsz_JPEG/15977386634740245_2135282174.jpg",
+    "description": "자동차 차박매트, 바닥매트, 트렁크매트 제조업체 카빛나입니다.",
+    "channelProductIds": [
+     8130517385,
+     12737493889,
+     12448988199,
+     8907415553,
+     4829331880,
+     10133609799,
+     6116946163,
+     5073462724,
+     3647896055,
+     10258636328,
+     10717592715,
+     9827559520,
+     12385626847,
+     4510301758,
+     3974582634
+    ]
+   },
+   {
+    "channelNo": 101255477,
+    "channelUid": "2sWE0Vvk9wVf2W95JrTWn",
+    "accountNo": 101177389,
+    "channelName": "티파츠코리아",
+    "channelSiteFullUrl": "https://brand.naver.com/tparts",
+    "representImageUrl": "http://shop1.phinf.naver.net/20241218_83/1734513322569puj3k_JPEG/10973320461169340_739220187.jpg",
+    "description": "테슬라 파츠 악세사리 전문 브랜드 티파츠",
+    "channelProductIds": [
+     12669694607,
+     10155188320,
+     13643687267,
+     12058993668,
+     10226990135,
+     9620336568,
+     6015917121,
+     10218751788
+    ]
+   },
+   {
+    "channelNo": 100066462,
+    "channelUid": "2sWE0wCpV0HyQm6QZlFc2",
+    "accountNo": 100059290,
+    "channelName": "카마루",
+    "channelSiteFullUrl": "https://brand.naver.com/kamarucarmat",
+    "representImageUrl": "http://shop1.phinf.naver.net/20211210_273/1639104394465Xk26I_PNG/40240174189901186_1295267885.png",
+    "description": "믿음을 주는 기업, 차량용품 전문 브랜드!! 카마루",
+    "channelProductIds": [
+     6093291680,
+     11672084462,
+     6092915292,
+     6821707384,
+     6093178579,
+     8974058109,
+     7978791091,
+     9874714002,
+     13464244732,
+     12053858945
+    ]
+   },
+   {
+    "channelNo": 100090980,
+    "channelUid": "2sWDwcItvWUDGqbPDwPue",
+    "accountNo": 100081775,
+    "channelName": "오토 메이트",
+    "channelSiteFullUrl": "https://brand.naver.com/automate",
+    "representImageUrl": "http://shop1.phinf.naver.net/20260320_176/1773980024863VTJYW_JPEG/34109900773828042_-1662131164.jpg",
+    "description": "프리미엄 카매트",
+    "channelProductIds": [
+     7317581786,
+     13752983023,
+     13755516782
+    ]
+   },
+   {
+    "channelNo": 100605855,
+    "channelUid": "2sWDyX8w25QOv3fSteK4M",
+    "accountNo": 100554413,
+    "channelName": "에이치엠티 HMT",
+    "channelSiteFullUrl": "https://brand.naver.com/hmtmat",
+    "representImageUrl": "http://shop1.phinf.naver.net/20200131_93/1580453796126dGvtD_JPEG/17805521000702051_1974620501.jpg",
+    "description": "HMT 친환경 TPE 자동차매트 제조 수입원 공식 쇼핑몰",
+    "channelProductIds": [
+     9902383415,
+     5364457880,
+     4980740054,
+     10120764098,
+     5514250962,
+     4853094298
+    ]
+   },
+   {
+    "channelNo": 100287898,
+    "channelUid": "2sWDxS5bSgQqqGf3Mouos",
+    "accountNo": 100259035,
+    "channelName": "메이튼",
+    "channelSiteFullUrl": "https://brand.naver.com/mayton",
+    "representImageUrl": "http://shop1.phinf.naver.net/20240119_145/1705622665828cdunF_JPEG/106758561565848319_1366908959.jpg",
+    "description": "자동차 튜닝 용품 네이버 공식 브랜드스토어",
+    "channelProductIds": [
+     13358759935,
+     13706521774,
+     13435763127,
+     13805914948,
+     13403116961,
+     10284809322,
+     13036281775,
+     13637896087,
+     11227429547,
+     13689099511,
+     9904983672,
+     13564275407,
+     13278966153,
+     8383536736,
+     13297204514
+    ]
+   }
+  ]
+ },
+ "footer.json": {
+  "phones": [
+   {
+    "label": "쇼핑&페이 구매자 고객센터",
+    "number": "1588-3819",
+    "areaId": "call",
+    "exposure": {
+     "default": true,
+     "businessMall": true
+    }
+   },
+   {
+    "label": "네이버 대표전화",
+    "number": "1588-3820",
+    "areaId": "mainnumber",
+    "exposure": {
+     "default": true,
+     "businessMall": true
+    }
+   },
+   {
+    "label": "네이버플러스 멤버십 전용 고객센터",
+    "number": "1599-1399",
+    "areaId": "mainnumber",
+    "exposure": {
+     "default": true,
+     "businessMall": false
+    }
+   }
+  ]
+ },
+ "gnb/category/list": {
+  "categories": [
+   {
+    "id": "10000107",
+    "name": "여성의류",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10005609",
+      "name": "공식몰단독",
+      "type": "ETC",
+      "isLeaf": true
+     },
+     {
+      "id": "10000132",
+      "name": "상의",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000133",
+      "name": "팬츠/스커트",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000136",
+      "name": "아우터",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000131",
+      "name": "원피스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000138",
+      "name": "수트/셋업",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000139",
+      "name": "스포츠웨어",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10007578",
+      "name": "언더웨어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000135",
+      "name": "잠옷/홈웨어",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10005620",
+      "name": "수영복/스윔웨어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "fashion_town",
+      "pcLandingUrl": "https://shopping.naver.com/window/fashion-group/category/20005987?sort=BRAND_POPULARITY",
+      "mobileLandingUrl": "https://shopping.naver.com/window/fashion-group/category/20005987?sort=BRAND_POPULARITY",
+      "description": "백화점/아울렛/쇼핑몰"
+     },
+     {
+      "code": "high_end",
+      "pcLandingUrl": "https://shopping.naver.com/highend/home",
+      "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+      "description": "럭셔리 브랜드 공식몰"
+     },
+     {
+      "code": "knockit",
+      "pcLandingUrl": "https://shopping.naver.com/knockit/home?gender=F",
+      "mobileLandingUrl": "https://shopping.naver.com/knockit/home?gender=F",
+      "description": "컨템포러리 패션"
+     }
+    ]
+   },
+   {
+    "id": "10000108",
+    "name": "남성의류",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10007611",
+      "name": "편집샵",
+      "type": "ETC",
+      "isLeaf": true
+     },
+     {
+      "id": "10000143",
+      "name": "상의",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000144",
+      "name": "팬츠",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000145",
+      "name": "셋업",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000142",
+      "name": "아우터",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000147",
+      "name": "트레이닝복",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000148",
+      "name": "수영복/비치웨어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000146",
+      "name": "테마의류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007577",
+      "name": "언더웨어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007579",
+      "name": "잠옷/홈웨어",
+      "type": "DEFAULT",
+      "isLeaf": true
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "fashion_town",
+      "pcLandingUrl": "https://shopping.naver.com/window/fashion-group/category/20006174?sort=BRAND_POPULARITY",
+      "mobileLandingUrl": "https://shopping.naver.com/window/fashion-group/category/20006174?sort=BRAND_POPULARITY",
+      "description": "백화점/아울렛/쇼핑몰"
+     },
+     {
+      "code": "high_end",
+      "pcLandingUrl": "https://shopping.naver.com/highend/home",
+      "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+      "description": "럭셔리 브랜드 공식몰"
+     },
+     {
+      "code": "knockit",
+      "pcLandingUrl": "https://shopping.naver.com/knockit/home?gender=M",
+      "mobileLandingUrl": "https://shopping.naver.com/knockit/home?gender=M",
+      "description": "컨템포러리 패션"
+     }
+    ]
+   },
+   {
+    "id": "10000109",
+    "name": "패션잡화",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10005662",
+      "name": "명품가방/지갑",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000150",
+      "name": "여성가방",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000151",
+      "name": "남성가방",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000928",
+      "name": "여행용가방/소품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000152",
+      "name": "주얼리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000155",
+      "name": "모자",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000153",
+      "name": "양말",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000154",
+      "name": "벨트",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000156",
+      "name": "패션소품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001297",
+      "name": "안경",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000157",
+      "name": "시계",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000158",
+      "name": "선글라스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000929",
+      "name": "지갑",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "fashion_town",
+      "pcLandingUrl": "https://shopping.naver.com/window/fashion-group/category/20006331?sort=BRAND_POPULARITY",
+      "mobileLandingUrl": "https://shopping.naver.com/window/fashion-group/category/20006331?sort=BRAND_POPULARITY",
+      "description": "백화점/아울렛/쇼핑몰"
+     },
+     {
+      "code": "high_end",
+      "pcLandingUrl": "https://shopping.naver.com/highend/home",
+      "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+      "description": "럭셔리 브랜드 공식몰"
+     },
+     {
+      "code": "knockit",
+      "pcLandingUrl": "http://shopping.naver.com/knockit/home",
+      "mobileLandingUrl": "http://shopping.naver.com/knockit/home",
+      "description": "컨템포러리 패션"
+     }
+    ]
+   },
+   {
+    "id": "10000110",
+    "name": "신발",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10005672",
+      "name": "명품신발",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10000214",
+      "name": "운동화/스니커즈",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000215",
+      "name": "여성단화",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001359",
+      "name": "힐/펌프스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000218",
+      "name": "남성구두",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10000219",
+      "name": "슬리퍼/샌들",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000221",
+      "name": "부츠/워커",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000216",
+      "name": "뮬/실내화",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000224",
+      "name": "아쿠아슈즈",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000220",
+      "name": "기능화",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000222",
+      "name": "모카신",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000228",
+      "name": "신발용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "fashion_town",
+      "pcLandingUrl": "https://shopping.naver.com/window/fashion-group/category/20006350",
+      "mobileLandingUrl": "https://shopping.naver.com/window/fashion-group/category/20006350",
+      "description": "백화점/아울렛/쇼핑몰"
+     },
+     {
+      "code": "high_end",
+      "pcLandingUrl": "https://shopping.naver.com/highend/home",
+      "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+      "description": "럭셔리 브랜드 공식몰"
+     },
+     {
+      "code": "knockit",
+      "pcLandingUrl": "http://shopping.naver.com/knockit/home",
+      "mobileLandingUrl": "http://shopping.naver.com/knockit/home",
+      "description": "컨템포러리 패션"
+     }
+    ]
+   },
+   {
+    "id": "10000111",
+    "name": "화장품/미용",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10001712",
+      "name": "스킨케어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001713",
+      "name": "선케어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001715",
+      "name": "마스크/팩",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001714",
+      "name": "클렌징",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001716",
+      "name": "메이크업",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001720",
+      "name": "헤어케어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001719",
+      "name": "바디케어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008314",
+      "name": "핸드케어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001718",
+      "name": "네일케어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001723",
+      "name": "뷰티소품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001722",
+      "name": "향수",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001724",
+      "name": "남성화장품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001842",
+      "name": "보습필수템",
+      "type": "USAGE",
+      "isLeaf": true
+     },
+     {
+      "id": "10007103",
+      "name": "뷰티디바이스",
+      "type": "DEFAULT",
+      "isLeaf": true
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "fashion_town_beauty",
+      "pcLandingUrl": "https://shopping.naver.com/window/beauty/category?filterSoldOut=true",
+      "mobileLandingUrl": "https://shopping.naver.com/window/beauty/category?filterSoldOut=true",
+      "description": null
+     },
+     {
+      "code": "high_end",
+      "pcLandingUrl": "https://shopping.naver.com/highend/home",
+      "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+      "description": "럭셔리 브랜드 공식몰"
+     }
+    ]
+   },
+   {
+    "id": "10006530",
+    "name": "신선식품",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10007088",
+      "name": "과일",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007087",
+      "name": "채소",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007086",
+      "name": "쌀/잡곡",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007092",
+      "name": "견과류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007085",
+      "name": "건과류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007093",
+      "name": "계란/알류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007094",
+      "name": "정육",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007095",
+      "name": "수산물",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007096",
+      "name": "건어물",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007099",
+      "name": "김치",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007100",
+      "name": "반찬",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007610",
+      "name": "전통주",
+      "type": "DEFAULT",
+      "isLeaf": true
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "direct_farm",
+      "pcLandingUrl": "https://shopping.naver.com/fresh/directfarm/category?menu=10002043",
+      "mobileLandingUrl": "https://m.shopping.naver.com/fresh/directfarm/category?menu=10002043",
+      "description": null
+     },
+     {
+      "code": "market",
+      "pcLandingUrl": "https://shopping.naver.com/market/home",
+      "mobileLandingUrl": "https://m.shopping.naver.com/market/home",
+      "description": null
+     },
+     {
+      "code": "kurlynmart",
+      "pcLandingUrl": "https://shopping.naver.com/kurlynmart/home",
+      "mobileLandingUrl": "https://m.shopping.naver.com/kurlynmart/home",
+      "description": null
+     }
+    ]
+   },
+   {
+    "id": "10000114",
+    "name": "가공식품",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10006990",
+      "name": "생수/탄산수",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000304",
+      "name": "커피/차류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000287",
+      "name": "음료",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002876",
+      "name": "우유/두유/요거트",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000301",
+      "name": "치즈/유가공품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000296",
+      "name": "밀키트",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000289",
+      "name": "간편조리식품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002879",
+      "name": "라면/면류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000298",
+      "name": "과자/떡/베이커리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000307",
+      "name": "소스/드레싱",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006988",
+      "name": "잼/시럽",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006992",
+      "name": "장류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000305",
+      "name": "조미료",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000295",
+      "name": "식용유/참기름",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006991",
+      "name": "가루/분말류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005692",
+      "name": "다이어트식품",
+      "type": "USAGE",
+      "isLeaf": true
+     },
+     {
+      "id": "10002880",
+      "name": "통조림/캔",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "local_food",
+      "pcLandingUrl": "https://shopping.naver.com/fresh/localfood/category?menu=10002169",
+      "mobileLandingUrl": "https://m.shopping.naver.com/fresh/localfood/category?menu=10002169",
+      "description": null
+     },
+     {
+      "code": "market",
+      "pcLandingUrl": "https://shopping.naver.com/market/home",
+      "mobileLandingUrl": "https://m.shopping.naver.com/market/home",
+      "description": null
+     },
+     {
+      "code": "kurlynmart",
+      "pcLandingUrl": "https://shopping.naver.com/kurlynmart/home",
+      "mobileLandingUrl": "https://m.shopping.naver.com/kurlynmart/home",
+      "description": null
+     }
+    ]
+   },
+   {
+    "id": "10000115",
+    "name": "건강식품",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008527",
+      "name": "본사공식상품",
+      "type": "SITUATION",
+      "isLeaf": true
+     },
+     {
+      "id": "10000315",
+      "name": "비타민",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005737",
+      "name": "프로바이오틱스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005740",
+      "name": "오메가3",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10000317",
+      "name": "영양제",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005738",
+      "name": "단백질보충제",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000319",
+      "name": "건강/과일즙",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000318",
+      "name": "홍삼/인삼",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000324",
+      "name": "다이어트",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10005741",
+      "name": "콜라겐/이너뷰티",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10003683",
+      "name": "효소/효모",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000322",
+      "name": "환자식/영양보충식",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10005739",
+      "name": "건강환/정",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10005743",
+      "name": "숙취해소제",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10008456",
+      "name": "건강분말",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10005744",
+      "name": "꿀/로얄제리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000316",
+      "name": "한방재료",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000116",
+    "name": "출산/유아동",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008239",
+      "name": "유아동 브랜드패션",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10008786",
+      "name": "요즘 뜨는 완구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005961",
+      "name": "유아동의류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005963",
+      "name": "유아동신발/가방",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000247",
+      "name": "유아언더웨어/잠옷",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000248",
+      "name": "유아패션잡화",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008193",
+      "name": "유아동주얼리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000230",
+      "name": "기저귀",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008066",
+      "name": "분유",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000232",
+      "name": "이유식/유아간식",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000231",
+      "name": "물티슈",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006506",
+      "name": "놀이방매트",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10000235",
+      "name": "유모차/웨건",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000239",
+      "name": "유아가구/소품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000236",
+      "name": "카시트",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000251",
+      "name": "소독/살균용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000234",
+      "name": "수유용품",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10000249",
+      "name": "목욕/스킨케어",
+      "type": "SITUATION",
+      "isLeaf": false
+     },
+     {
+      "id": "10000250",
+      "name": "위생/건강/세제",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000238",
+      "name": "안전용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000233",
+      "name": "이유식용품",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10000244",
+      "name": "교구/교육",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10000243",
+      "name": "장난감",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000241",
+      "name": "임부/태교용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000242",
+      "name": "출산기념품",
+      "type": "SITUATION",
+      "isLeaf": false
+     },
+     {
+      "id": "10004469",
+      "name": "캐릭터용품",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10005990",
+      "name": "코스튬/파티",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007732",
+      "name": "신학기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007733",
+      "name": "선물하기",
+      "type": "ETC",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000117",
+    "name": "반려동물용품",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008758",
+      "name": "펫바우처",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10005915",
+      "name": "강아지 사료",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005916",
+      "name": "강아지 간식",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005918",
+      "name": "강아지 배변용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005917",
+      "name": "강아지 영양관리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005919",
+      "name": "고양이 사료",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005920",
+      "name": "고양이 간식",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005922",
+      "name": "고양이 배변용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005921",
+      "name": "고양이 영양관리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005923",
+      "name": "고양이 실내용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005924",
+      "name": "외출용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005925",
+      "name": "실내용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007757",
+      "name": "패션/액세서리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005926",
+      "name": "미용/위생용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007759",
+      "name": "개르신",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10007760",
+      "name": "묘르신",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10007761",
+      "name": "퍼피",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10007762",
+      "name": "키튼",
+      "type": "USAGE",
+      "isLeaf": false
+     },
+     {
+      "id": "10006025",
+      "name": "관상어용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005927",
+      "name": "소동물용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005928",
+      "name": "기타반려동물용품",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10008513",
+      "name": "파티/장례용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000120",
+    "name": "가전",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10000374",
+      "name": "TV",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10003686",
+      "name": "청소기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000376",
+      "name": "냉장고",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000378",
+      "name": "세탁기/건조기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000375",
+      "name": "계절가전",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000382",
+      "name": "주방가전",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007212",
+      "name": "건강가전",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007213",
+      "name": "음향가전",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000377",
+      "name": "생활가전",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000381",
+      "name": "이미용가전",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000379",
+      "name": "프로젝터/플레이어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000380",
+      "name": "욕실가전",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000121",
+    "name": "휴대폰/카메라",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10007987",
+      "name": "휴대폰",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000391",
+      "name": "카메라",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000389",
+      "name": "웨어러블",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000393",
+      "name": "1인방송/촬영",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007689",
+      "name": "휴대폰액세서리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000122",
+    "name": "PC/주변기기",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008889",
+      "name": "NVIDIA Spark",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10000395",
+      "name": "노트북",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000396",
+      "name": "브랜드PC",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000397",
+      "name": " 모니터",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007879",
+      "name": "태블릿PC",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000402",
+      "name": "PC주변기기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000403",
+      "name": " 키보드/마우스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000400",
+      "name": " 소프트웨어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000399",
+      "name": " PC부품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000390",
+      "name": "음향기기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000398",
+      "name": " 복합기/프린터",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000401",
+      "name": " 저장장치",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000388",
+      "name": "게이밍",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000112",
+    "name": "가구",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10000254",
+      "name": "침대",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000963",
+      "name": "매트리스/토퍼",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000255",
+      "name": "옷장/행거",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000253",
+      "name": "소파",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000256",
+      "name": "거실장/테이블",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000257",
+      "name": "책상/책장",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000258",
+      "name": "의자",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000259",
+      "name": "식탁/주방수납장",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000260",
+      "name": "수납장/선반",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007820",
+      "name": "화장대",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000261",
+      "name": "아동/주니어가구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000262",
+      "name": "야외가구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001920",
+      "name": "1인가구",
+      "type": "SITUATION",
+      "isLeaf": true
+     },
+     {
+      "id": "10006495",
+      "name": "재택근무",
+      "type": "USAGE",
+      "isLeaf": true
+     },
+     {
+      "id": "10005632",
+      "name": "이사/혼수가구",
+      "type": "SITUATION",
+      "isLeaf": true
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "high_end",
+      "pcLandingUrl": "https://shopping.naver.com/highend/home",
+      "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+      "description": "럭셔리 브랜드 공식몰"
+     }
+    ]
+   },
+   {
+    "id": "10006496",
+    "name": "조명/인테리어",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008830",
+      "name": "브랜드 조명",
+      "type": "ETC",
+      "isLeaf": true
+     },
+     {
+      "id": "10006967",
+      "name": "조명/스탠드",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006969",
+      "name": "디퓨저/캔들",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006970",
+      "name": "인테리어소품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006971",
+      "name": "시계",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007821",
+      "name": "액자/갤러리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007301",
+      "name": "거울",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006968",
+      "name": "시공/리모델링",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006972",
+      "name": "셀프인테리어",
+      "type": "USAGE",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "high_end",
+      "pcLandingUrl": "https://shopping.naver.com/highend/home",
+      "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+      "description": "럭셔리 브랜드 공식몰"
+     }
+    ]
+   },
+   {
+    "id": "10000113",
+    "name": "패브릭/홈데코",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008538",
+      "name": "오늘리빙 내일도착",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10000275",
+      "name": "추천테마",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10006118",
+      "name": "침구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006119",
+      "name": "베개/베개커버",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006120",
+      "name": "침구커버",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006121",
+      "name": "요/패드",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006122",
+      "name": "침구세트",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006123",
+      "name": "담요/블랭킷",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10005952",
+      "name": "커튼",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005953",
+      "name": "카페트/러그",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000269",
+      "name": "쿠션/방석",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000267",
+      "name": "소파/생활커버",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006124",
+      "name": "주방패브릭",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006497",
+      "name": "블라인드/롤스크린",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006498",
+      "name": "솜류",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007742",
+      "name": "수예",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000119",
+    "name": "주방용품",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008391",
+      "name": "오늘리빙 내일도착",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008209",
+      "name": "키친 스페셜 큐레이션",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10007974",
+      "name": "프리미엄 키친",
+      "type": "USAGE",
+      "isLeaf": true
+     },
+     {
+      "id": "10000372",
+      "name": "프라이팬",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000356",
+      "name": "냄비/솥",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000357",
+      "name": "도마",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000370",
+      "name": "칼/커팅기구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000366",
+      "name": "조리기구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000360",
+      "name": "그릇/홈세트",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000373",
+      "name": "수저/커트러리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000363",
+      "name": "잔/컵",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000361",
+      "name": "와인용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000358",
+      "name": "보관/밀폐용기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000359",
+      "name": "보온/보냉용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000367",
+      "name": "주방수납용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000369",
+      "name": "주전자/티포트",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000371",
+      "name": "커피용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000364",
+      "name": "제과/제빵용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000355",
+      "name": "교자상/밥상",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000365",
+      "name": "제수용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000368",
+      "name": "주방잡화",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000362",
+      "name": "위생장갑",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005765",
+      "name": "일회용품/종이컵",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10007969",
+      "name": "신혼준비관",
+      "type": "ETC",
+      "isLeaf": true
+     },
+     {
+      "id": "10007750",
+      "name": "홈술/홈카페",
+      "type": "SITUATION",
+      "isLeaf": true
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "high_end",
+      "pcLandingUrl": "https://shopping.naver.com/highend/home",
+      "mobileLandingUrl": "https://shopping.naver.com/highend/home",
+      "description": "럭셔리 브랜드 공식몰"
+     }
+    ]
+   },
+   {
+    "id": "10000118",
+    "name": "생활용품",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008307",
+      "name": "네이버 Only",
+      "type": "ETC",
+      "isLeaf": true
+     },
+     {
+      "id": "10008352",
+      "name": "초특가 기획템",
+      "type": "SEASON",
+      "isLeaf": false
+     },
+     {
+      "id": "10000350",
+      "name": "수납/정리용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000351",
+      "name": "욕실용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008158",
+      "name": "목욕용품",
+      "type": "SEASON",
+      "isLeaf": false
+     },
+     {
+      "id": "10000339",
+      "name": "칫솔/치약/가글",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10001290",
+      "name": "수건/타월",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000349",
+      "name": "세탁용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000344",
+      "name": "세탁세제",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000352",
+      "name": "청소용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000346",
+      "name": "청소세제",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007856",
+      "name": "섬유유연제",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000342",
+      "name": "생활잡화",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000348",
+      "name": "화장지",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000343",
+      "name": "성인용기저귀",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000340",
+      "name": "생리대",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000345",
+      "name": "제습/방향/탈취",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000347",
+      "name": "해충퇴치용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007875",
+      "name": "헤어케어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10007677",
+      "name": "바디케어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008210",
+      "name": "보안용품",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10001875",
+      "name": "여행필수템",
+      "type": "USAGE",
+      "isLeaf": true
+     },
+     {
+      "id": "10001870",
+      "name": "생활선물템",
+      "type": "SEASON",
+      "isLeaf": true
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000123",
+    "name": "스포츠/레저",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10000433",
+      "name": "캠핑",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000408",
+      "name": "등산/아웃도어",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008221",
+      "name": "러닝",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000404",
+      "name": "골프",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000431",
+      "name": "낚시",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000429",
+      "name": "라이딩",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000409",
+      "name": "홈트레이닝",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005943",
+      "name": "보호대",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005944",
+      "name": "구기스포츠",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005945",
+      "name": "라켓스포츠",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000432",
+      "name": "수영/수상스포츠",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000410",
+      "name": "스케이트/보드",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005948",
+      "name": "복싱/무도/댄스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000428",
+      "name": "스포츠액세서리/기타",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000125",
+    "name": "자동차/오토바이",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008928",
+      "name": "엔진오일 출장교체관",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10008875",
+      "name": "테슬라 추천 차량템",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008642",
+      "name": "자동차기기 업그레이드",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008561",
+      "name": "타이어 출장장착관",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10000462",
+      "name": "타이어/휠",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000463",
+      "name": "블랙박스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000464",
+      "name": "내비게이션",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000466",
+      "name": "하이패스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005930",
+      "name": "세차용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005931",
+      "name": "오일/소모품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005932",
+      "name": "인테리어용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005933",
+      "name": "차랑용방향제/탈취제",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005934",
+      "name": "익스테리어용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005935",
+      "name": "편의용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005936",
+      "name": "수납용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005937",
+      "name": "램프",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005938",
+      "name": "배터리용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005939",
+      "name": "DIY/전기/튜닝용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005940",
+      "name": "자동차기기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10006026",
+      "name": "오토바이",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000127",
+    "name": "키덜트/취미",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10005792",
+      "name": "키덜트 브랜드",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10005846",
+      "name": "피규어/프라모델",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005388",
+      "name": "보드게임",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005793",
+      "name": "드론",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10005794",
+      "name": "R/C",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000437",
+      "name": "수집품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008229",
+      "name": "음반/DVD",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005796",
+      "name": "서바이벌",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10005797",
+      "name": "코스튬/아이돌굿즈",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000440",
+      "name": "종교",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000442",
+      "name": "원예용품/식물",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000124",
+    "name": "건강/의료용품",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10000453",
+      "name": "마스크",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000458",
+      "name": "안마/마사지용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000459",
+      "name": "상처/구급용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008860",
+      "name": "전자담배",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000450",
+      "name": "냉온/찜질용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000455",
+      "name": "발/다리 건강용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000457",
+      "name": "간병/복지용구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000449",
+      "name": "건강측정용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000451",
+      "name": "눈건강용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008863",
+      "name": "돋보기/보청기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000460",
+      "name": "재활/교정용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008866",
+      "name": "호흡기기용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000452",
+      "name": "당뇨관리용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000454",
+      "name": "물리치료/저주파",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000461",
+      "name": "족욕/좌훈용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000456",
+      "name": "손소독제",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10000448",
+      "name": "건강액세서리",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000447",
+      "name": "기타 건강관리용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000128",
+    "name": "악기/문구",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008890",
+      "name": "크리스마스 준비",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008554",
+      "name": "사무용품 전문관",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000444",
+      "name": "문구/사무용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008606",
+      "name": "빠른배송 N배송",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000445",
+      "name": "악기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000446",
+      "name": "화방용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000126",
+    "name": "공구",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10000478",
+      "name": "안전용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008639",
+      "name": "공구 기어업",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10002073",
+      "name": "전기용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002074",
+      "name": "전동공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000477",
+      "name": "수공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002078",
+      "name": "측정공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002071",
+      "name": "운반용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002068",
+      "name": "에어공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002075",
+      "name": "절삭/연마공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000474",
+      "name": "설비공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000476",
+      "name": "소형기계",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002072",
+      "name": "원예공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002069",
+      "name": "예초기",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000473",
+      "name": "목공공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002070",
+      "name": "용접공구",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002077",
+      "name": "체결용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002076",
+      "name": "접착용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10005798",
+      "name": "포장용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10002079",
+      "name": "페인트/페인트용품",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10007178",
+    "name": "렌탈관",
+    "type": "ETC",
+    "children": [
+     {
+      "id": "10008672",
+      "name": "건강가전",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10008740",
+      "name": "가구/리빙",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10008673",
+      "name": "생활가전",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10008741",
+      "name": "계절가전",
+      "type": "ETC",
+      "isLeaf": false
+     },
+     {
+      "id": "10008674",
+      "name": "스포츠/레저",
+      "type": "ETC",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10000129",
+    "name": "E쿠폰/티켓/생활편의",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10000487",
+      "name": "e쿠폰교환권",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000479",
+      "name": "원데이클래스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000488",
+      "name": "지류/카드 상품권",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000489",
+      "name": "온라인 콘텐츠",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000490",
+      "name": "꽃/케이크배달",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000491",
+      "name": "자기계발/취미 레슨",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000492",
+      "name": "홈케어서비스",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10000493",
+      "name": "공연/티켓",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": []
+   },
+   {
+    "id": "10008203",
+    "name": "여행",
+    "type": "DEFAULT",
+    "children": [
+     {
+      "id": "10008204",
+      "name": "국내여행/체험",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10008205",
+      "name": "국내숙박",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10008207",
+      "name": "국내렌터카",
+      "type": "DEFAULT",
+      "isLeaf": true
+     },
+     {
+      "id": "10008206",
+      "name": "해외여행",
+      "type": "DEFAULT",
+      "isLeaf": false
+     },
+     {
+      "id": "10008824",
+      "name": "사전예약",
+      "type": "DEFAULT",
+      "isLeaf": false
+     }
+    ],
+    "exposedVerticals": [
+     {
+      "code": "travel_hotdeal",
+      "pcLandingUrl": "https://nshopping-pkgtour.naver.com/hotdeal?reqChannel=nshop_category",
+      "mobileLandingUrl": "https://nshopping-pkgtour.naver.com/hotdeal?reqChannel=nshop_category",
+      "description": null
+     }
+    ]
+   }
+  ],
+  "banners": [
+   {
+    "id": "6adb1ed2996f2232330d746b",
+    "exposureStartAt": "2026-11-02T00:00:00",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-05T23:59:59",
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261023_44/1792745158598ig4XK_PNG/3_ED8CA8EC8598%2BEC849CEBB88CEAB48028EC97ACEC84B1EC9D98E.png",
+     "altText": "",
+     "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=newsp_ctly&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6abddeec07b88360a276a452%3Fdtm_source%3Dnewsp_ctly%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+     "backgroundColor": "#b5c9ff"
+    },
+    "category": [
+     "10000107"
+    ]
+   },
+   {
+    "id": "6ae160cd99587a31159f84da",
+    "exposureStartAt": "2026-11-01T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-07T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261028_22/17931552545268H75B_PNG/ECB9B4ED858CEAB3A0EBA6AC%2BEBA088EC9DB4EC96B4%2BEBB0B0EB84.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/event/6ac4ac4307b88360a27ac212",
+     "backgroundColor": "#605111"
+    },
+    "category": [
+     "10000109"
+    ]
+   },
+   {
+    "id": "6ae1a9aaa231930f2ac8a258",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-08T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261028_88/1793173912643Ef1P6_JPEG/11027E1108%2BED9980EBA6ACEB8DB0EC9DB4%2BED96A5EC8898.jpg",
+     "altText": "",
+     "landingUrl": "https://brand.naver.com/chanel/store-content/detail/10000003092",
+     "backgroundColor": "#e2ebf2"
+    },
+    "category": [
+     "10000111"
+    ]
+   },
+   {
+    "id": "6ad95cc7e8740741dcea5688",
+    "exposureStartAt": "2026-11-01T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-02T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261022_191/17926299424211evlv_PNG/04.ECB9B4ED858CEAB3A0EBA6AC%2BEBA088EC9DB4EC96B4%2BEBB0B0EB.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/fresh/directfarm/event/20049560",
+     "backgroundColor": "#014fa4"
+    },
+    "category": [
+     "10006530"
+    ]
+   },
+   {
+    "id": "6adaf35a372af778e5da489c",
+    "exposureStartAt": "2026-11-01T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-02T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261023_179/1792736839358zruRg_JPEG/ECB9B4ED858CEAB3A0EBA6ACEBB0B0EB8488_EC82BCEB8BA4EC88.jpg",
+     "altText": "",
+     "landingUrl": "https://brand.naver.com/kwangdong/products/5348388501",
+     "backgroundColor": "#6b31f5"
+    },
+    "category": [
+     "10000114"
+    ]
+   },
+   {
+    "id": "6ae3dc5b99587a3115a9b72f",
+    "exposureStartAt": "2026-11-01T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-02T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261030_85/1793317944653Rt2hw_PNG/EC87BCED989CEBA6ACEBB0B0EB8488_CategoryLayer_Banner.png",
+     "altText": "",
+     "landingUrl": "https://brand.naver.com/inflow/outlink/url?tr=catre2&url=https%3A%2F%2Fbrand.naver.com%2Fcentrum%2Fshoppingstory%2Fdetail%3Fid%3D5003104383",
+     "backgroundColor": "#7696d0"
+    },
+    "category": [
+     "10000115"
+    ]
+   },
+   {
+    "id": "6adefcd9372af778e5e5e238",
+    "exposureStartAt": "2026-11-01T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-08T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261026_129/17929985854218eXNf_PNG/EB89B4EC87BCED9591%2BECB9B4ED858CEAB3A0EBA6AC%2BEBA088EC9D.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/event/6aced34d6bd75204c2ba00a5",
+     "backgroundColor": "#214682"
+    },
+    "category": [
+     "10000115"
+    ]
+   },
+   {
+    "id": "6adf19b3996f22323319403f",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-05T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261026_161/1793005942863W891f_PNG/1_EB9EADED82B9%2BECB59CEC8381EB8BA8_EB89B4EC87BCED9591_EC.png",
+     "altText": "",
+     "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=newsp_ctly&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6abda4e714c78778b14ea9db%3Fdtm_source%3Dnewsp_ctly%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+     "backgroundColor": "#9b7eff"
+    },
+    "category": [
+     "10000116"
+    ]
+   },
+   {
+    "id": "6ad87236e8740741dce83d03",
+    "exposureStartAt": "2026-10-26T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-05T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261021_105/17925697494379pF0p_PNG/EB89B4EC87BCED9591_ECB9B4ED858CEAB3A0EBA6AC_EBA088EC9D.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/event/6abda4e714c78778b14ea9db",
+     "backgroundColor": "#000000"
+    },
+    "category": [
+     "10000116"
+    ]
+   },
+   {
+    "id": "6adebcbf996f223233149f9e",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-05T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261026_285/1792982122392zIMEA_PNG/2_EBA9A4EBB284EC8BAD%2BECA084EC9AA9_EBA9A4EBB284EC8BAD%2BEC.png",
+     "altText": "",
+     "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=newsp_ctly&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6abda64914c78778b14ea9e5%3Fdtm_source%3Dnewsp_ctly%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+     "backgroundColor": "#007bab"
+    },
+    "category": [
+     "10000117"
+    ]
+   },
+   {
+    "id": "6ae2f424a231930f2ace32f5",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-02T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261029_22/1793258522407D8yaH_PNG/11022C11122C11152C1117%2BEBA088EC9DB4EC96B4EBB0B0EB8488_11EC9B.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/event/6ad6ab65e8740741dce248f4?tr=catre2",
+     "backgroundColor": "#0e113e"
+    },
+    "category": [
+     "10000120"
+    ]
+   },
+   {
+    "id": "6ae19ec7a231930f2ac81dc8",
+    "exposureStartAt": "2026-11-01T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-03T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261028_225/1793171135184ydr0O_PNG/ECB9B4ED858CEAB3A0EBA6AC%2BEBA088EC9DB4EC96B4%2BEBB0B0EB84.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/event/6acc2aac07b88360a28053d5",
+     "backgroundColor": "#2e29ca"
+    },
+    "category": [
+     "10000121"
+    ]
+   },
+   {
+    "id": "6ae1b5ada231930f2ac931fb",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-05T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261028_53/1793176995082UM54B_JPEG/11022C11032C11042C1105%2BEBA088EC9DB4EC96B4EBB0B0EB8488EC9DB4.jpg",
+     "altText": "",
+     "landingUrl": "https://m.shopping.naver.com/plan/details/791953?tr=catre2",
+     "backgroundColor": "#9b6132"
+    },
+    "category": [
+     "10000122"
+    ]
+   },
+   {
+    "id": "6ae3015f99587a3115a82abe",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-08T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261029_145/1793261904093jW0ux_PNG/ECB9B4ED858CEAB3A0EBA6AC%2BEBA088EC9DB4EC96B4%2BEBB0B0EB84.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/event/6aa25087e5dd9c4fe581ae12",
+     "backgroundColor": "#c75426"
+    },
+    "category": [
+     "10000113"
+    ]
+   },
+   {
+    "id": "6ae3015ea231930f2acf4a63",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-08T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261029_145/1793261904093jW0ux_PNG/ECB9B4ED858CEAB3A0EBA6AC%2BEBA088EC9DB4EC96B4%2BEBB0B0EB84.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/event/6aa25087e5dd9c4fe581ae12",
+     "backgroundColor": "#c75426"
+    },
+    "category": [
+     "10000119"
+    ]
+   },
+   {
+    "id": "6adab1a8996f22323304132b",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-05T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261023_24/1792717204026qnBXo_PNG/4_EC839DED9584ED9288%2BEC849CEBB88CEAB48028EC839DED999CE.png",
+     "altText": "",
+     "landingUrl": "https://mkt.naver.com/p1/atrb?channel_id=newsp_ctly&campaign_id=2610-shopping-003&target=https%3A%2F%2Fshopping.naver.com%2Fevent%2F6abddb9a6bd75204c2ac4f83%3Fdtm_source%3Dnewsp_ctly%26dtm_medium%3Dmktatrb%26dtm_campaign%3D2610-shopping-003",
+     "backgroundColor": "#14726d"
+    },
+    "category": [
+     "10000118"
+    ]
+   },
+   {
+    "id": "6ae7f3cef1b8f35563acb5cf",
+    "exposureStartAt": "2026-11-02T00:00:00.000",
+    "slotId": "66b4319faceeea27dc189d99",
+    "exposureEndAt": "2026-11-07T23:59:59.000",
+    "order": 0,
+    "narrowContent": {
+     "imageUrl": "https://shop-phinf.pstatic.net/20261102_126/1793585934264M3cu6_PNG/EB89B4EC87BCED9591%2BECB9B4ED858CEAB3A0EBA6AC%2BEBA088EC9D.png",
+     "altText": "",
+     "landingUrl": "https://shopping.naver.com/event/6ad95e38996f223233f8860d",
+     "backgroundColor": "#db011b"
+    },
+    "category": [
+     "10000126"
+    ]
+   }
+  ]
+ },
+ "home/products": [
+  {
+   "channelProductId": 9396508535,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 9352414897,
+    "name": "바이오 카매트 BMW 8세대 5시리즈 G60 (23년10월~) 카본 3D트렁크매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20231110_10/1699594351978lv3fW_JPEG/1005508854689342_1144974170.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/9396508535",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 86941008858
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 1392,
+    "averageReviewScore": 4.91
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트 BMW 8세대 5시리즈 G60 (23년10월~) 카본 3D트렁크매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 11386234309,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 11332984020,
+    "name": "바이오 카매트 BMW X3 G45 (25년~) 카본 3D 트렁크매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20250122_16/1737512973470TVYmm_JPEG/13915415577912298_532363735.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/11386234309",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 88930744674
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 156,
+    "averageReviewScore": 4.94
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트 BMW X3 G45 (25년~) 카본 3D 트렁크매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 12552390632,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 12495736979,
+    "name": "바이오 카매트 폴스타4 카본 3D트렁크매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20251017_287/1760664905614N3uKL_JPEG/4296352486499981_1508353166.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/12552390632",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 90096901485
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 39,
+    "averageReviewScore": 4.82
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트 폴스타4 카본 3D트렁크매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 4089727741,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 4082391968,
+    "name": "바이오 카매트 제네시스 1세대 G90 EQ900 3D 트렁크 매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20230406_85/16807653901088MvtU_JPEG/81901224943542330_1759015413.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/4089727741",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 81634248483
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 33,
+    "averageReviewScore": 4.88
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트 제네시스 1세대 G90 EQ900 3D 트렁크 매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 4736850748,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 4724342086,
+    "name": "바이오카매트 현대 더뉴 그랜저IG 가솔린 하이브리드 카본 3D트렁크매트 더뉴 그랜저IG 가솔린 (19.11~)",
+    "imageUrl": "https://shop-phinf.pstatic.net/20220808_69/1659935629163gvDHm_JPEG/61071412248156520_442189914.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/4736850748",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 82281372212
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 689,
+    "averageReviewScore": 4.85
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오카매트 현대 더뉴 그랜저IG 가솔린 하이브리드 카본 3D트렁크매트 더뉴 그랜저IG 가솔린 (19.11~)",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 2993409416,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 2989083665,
+    "name": "바이오카매트  자동차 발매트 라인 코일매트  M블랙 1열(운전석+조수석)",
+    "imageUrl": "https://shop-phinf.pstatic.net/20260508_252/1778197838768b7ocd_JPEG/25688405700072162_1108656715.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/2993409416",
+    "salePrice": 80000,
+    "dispSalePrice": 80000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 80491153417
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 21439,
+    "averageReviewScore": 4.88
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 80000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오카매트  자동차 발매트 라인 코일매트  M블랙 1열(운전석+조수석)",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 7662715763,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 7625726591,
+    "name": "바이오 카매트  현대 디 올뉴 그랜저 GN7 (22년11월~페이스리프트 장착 가능) 카본 3D트렁크매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20221226_183/16720395584010AfQm_JPEG/73175391706755441_1277340609.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/7662715763",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 85207216085
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 876,
+    "averageReviewScore": 4.9
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트  현대 디 올뉴 그랜저 GN7 (22년11월~페이스리프트 장착 가능) 카본 3D트렁크매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 9396515206,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 9352421519,
+    "name": "바이오 카매트 BMW i5 (23년10월~) 카본 3D트렁크매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20251107_112/1762480303747EsPW9_JPEG/17178604845731553_610407849.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/9396515206",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 86941015529
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 193,
+    "averageReviewScore": 4.83
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트 BMW i5 (23년10월~) 카본 3D트렁크매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 5071464654,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 5053359188,
+    "name": "바이오 카매트 기아 4세대 카니발 KA4 페리 하이브리드 가능 (20년8월 ~) 카본 3D 트렁크 매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20221028_28/1666934015095Rbmyr_JPEG/68069798805734343_81962804.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/5071464654",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 82615986305
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 646,
+    "averageReviewScore": 4.86
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트 기아 4세대 카니발 KA4 페리 하이브리드 가능 (20년8월 ~) 카본 3D 트렁크 매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 2361758853,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 2359668849,
+    "name": "바이오 카매트 기아 2세대 K7 (16년~21년) 카본 3D 트렁크 매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20221028_195/16669167724157f23c_JPEG/68052607244910155_332725724.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/2361758853",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 12957032573
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 160,
+    "averageReviewScore": 4.79
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트 기아 2세대 K7 (16년~21년) 카본 3D 트렁크 매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 4699496170,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 4687630285,
+    "name": "바이오 카매트 벤츠 GLE  W167 쿠페 C167 카본 3D 트렁크매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20221028_140/1666932408349QdfBv_JPEG/68068236153148299_1962109356.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/4699496170",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 82244017028
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 254,
+    "averageReviewScore": 4.94
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오 카매트 벤츠 GLE  W167 쿠페 C167 카본 3D 트렁크매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  },
+  {
+   "channelProductId": 4911050056,
+   "channelMeta": {
+    "accountNo": 500178760,
+    "channelNo": 500178760,
+    "channelUid": "2sWDvvQuWiRWrAnYfV0Hf",
+    "channelName": "바이오카매트",
+    "channelSiteFullUrl": "https://smartstore.naver.com/biocarmat",
+    "channelServiceType": "STOREFARM",
+    "smartStoreChannelType": null
+   },
+   "productMeta": {
+    "productNo": 4895259523,
+    "name": "바이오카매트 제네시스 3세대 G80 (20년4월~) 카본 3D트렁크매트",
+    "imageUrl": "https://shop-phinf.pstatic.net/20220808_100/1659934116512jFtVM_JPEG/61069962018149259_1113312444.jpg",
+    "productUrl": "https://smartstore.naver.com/main/products/4911050056",
+    "salePrice": 59000,
+    "dispSalePrice": 59000,
+    "authenticationType": "NORMAL",
+    "channelProductDisplayStatusType": "ON",
+    "productStatusType": "SALE",
+    "saleType": "NEW",
+    "categoryWholeIds": [
+     "50000008",
+     "50000055",
+     "50000943",
+     "50015020"
+    ],
+    "purchaseQuantityInfo": null,
+    "loungeProductType": null,
+    "epInfo": {
+     "naverShoppingRegistration": true,
+     "naverShoppingExposure": true,
+     "enuriRegistration": false,
+     "danawaRegistration": false,
+     "syncNvMid": 82455573750
+    }
+   },
+   "deliveryMeta": {
+    "baseFee": 0,
+    "deliveryAttributeType": "TODAY",
+    "deliveryFeePayType": null,
+    "deliveryFeeType": "FREE",
+    "installationFee": false,
+    "freeConditionalAmount": null,
+    "deliveryMethodTypes": null,
+    "installation": null,
+    "overseasShipping": false,
+    "freeReturnInsurance": false,
+    "thisDayDispatchBasisTime": "05:00:00.000+0000",
+    "isFreeDelivery": true,
+    "isTodayDelivery": true,
+    "isTodayDeliveryByProduct": true,
+    "isHopeDelivery": false,
+    "isArrivalGuarantee": false,
+    "deliveryBenefitTags": [
+     "FREE"
+    ]
+   },
+   "reviewMeta": {
+    "totalReviewCount": 1488,
+    "averageReviewScore": 4.87
+   },
+   "benefitMeta": {
+    "dispDiscountedSalePrice": 59000,
+    "dispDiscountedRatio": 0.0
+   },
+   "productAdditional": {
+    "dispName": "바이오카매트 제네시스 3세대 G80 (20년4월~) 카본 3D트렁크매트",
+    "promotionTags": [],
+    "videoId": null,
+    "videoThumbnailUrl": null,
+    "isRental": false,
+    "isRegularSubscription": false,
+    "isUsed": false,
+    "isPreOrder": false,
+    "rentalMonthlyFee": null,
+    "discountedRentalMonthlyFee": null,
+    "rentalMonthlyFeeDiscountedRatio": null,
+    "tagText": null,
+    "badge": null,
+    "recommendedReactiveUrl": null,
+    "verticalInfos": [],
+    "verticalTypes": [],
+    "unitCapacity": null,
+    "onetimeFeeUsable": false,
+    "onetimeFeeTotal": null,
+    "branchMultiProductYn": null,
+    "customsServiceFee": null,
+    "isFst": null,
+    "freeShippingMinAmount": null,
+    "isAmazonDeal": null,
+    "amazonDealEndAt": null,
+    "standardGroupProduct": null,
+    "purchaseUnitQuantity": null
+   },
+   "deliveryAdditional": {
+    "deliveryFeeGuideType": null,
+    "deliveryFeeGuide": null,
+    "membershipDeliveryFeeGuide": null,
+    "membershipFreeConditionalAmount": null,
+    "customsTaxType": null
+   },
+   "channelAdditional": {
+    "accountId": "biocarmat",
+    "mallSeq": 387001
+   },
+   "adAdditional": null,
+   "aitemsAdditional": null
+  }
+ ]
+}

@@ -1,0 +1,334 @@
+[RootWebArea] NAVER
+  [link] 상단영역 바로가기
+  [link] 서비스 메뉴 바로가기
+  [link] 새소식 블록 바로가기
+  [link] 쇼핑 블록 바로가기
+  [link] 관심사 블록 바로가기
+  [link] MY 영역 바로가기
+  [link] 위젯 보드 바로가기
+  [link] 보기 설정 바로가기
+  [complementary] 웨일 브라우저 설치 안내
+    [link] 다운로드
+    [button] 7일 내 다시보지 않기
+    [button] 배너 닫기
+  [complementary] 웨일 브라우저 설치 안내
+    [image] 웨일 브라우저 이미지
+    [link] 웨일 다운로드
+    [button] 7일 내 다시보지 않기
+    [button] 배너 닫기
+  [banner] 
+    [heading] NAVER NAVER
+      [link] NAVER
+        [image] NAVER
+      [link] NAVER
+    [search] 
+      [group] 검색
+        [combobox] 검색어를 입력해 주세요.
+        [button] AI 검색
+    [button] 입력도구
+    [link] [광고]석박사 학위를 온라인으로 한양사이버대학교 대학원
+      [image] [광고]석박사 학위를 온라인으로 한양사이버대학교 대학원
+    [navigation] 주요 서비스
+      [list] 
+        [listitem] 
+          [link] 메일
+        [listitem] 
+          [link] 카페
+        [listitem] 
+          [link] 블로그
+        [listitem] 
+          [link] 쇼핑
+        [listitem] 
+          [link] 뉴스
+        [listitem] 
+          [link] 증권
+        [listitem] 
+          [link] 부동산
+        [listitem] 
+          [link] 지도
+        [listitem] 
+          [link] 웹툰
+        [listitem] 
+          [link] 치지직 치지직 추천
+            [image] 치지직
+        [listitem] 
+          [button] 바로가기 펼침
+        [listitem] 
+          [link] 한양사이버대학 AD
+    [button] 확장 영역
+    [link] 페이 바로가기
+    [button] 알림
+    [link] 장바구니 알림
+  [main] 
+    [Iframe] 광고
+    [region] 뉴스스탠드
+      [tablist] 
+        [tab] 뉴스스탠드
+        [tab] 언론사편집
+        [tab] 엔터
+        [tab] 스포츠
+        [tab] 게임
+        [tab] 경제
+      [button] 전체언론사
+      [link] 연합뉴스
+      [link] 트럼프, 알래스카 또 거론…"한중일行 선박 위한 가스관 있다"
+      [link] 광주 軍공항 대미협의, 포괄협정으로…연내 문안협의 완료 목표
+      [link] 뉴스스탠드
+      [link] 뉴스홈
+      [link] OSEN
+        [image] OSEN
+      [link] 한국경제
+        [image] 한국경제
+      [link] 한국경제TV
+        [image] 한국경제TV
+      [link] 일간스포츠
+        [image] 일간스포츠
+      [link] 채널A
+        [image] 채널A
+      [link] JTBC
+        [image] JTBC
+      [link] 이데일리
+        [image] 이데일리
+      [link] KBS World
+        [image] KBS World
+      [link] 지디넷코리아
+        [image] 지디넷코리아
+      [link] 한겨레
+        [image] 한겨레
+      [link] 머니투데이
+        [image] 머니투데이
+      [link] SBS
+        [image] SBS
+      [link] 마이데일리
+        [image] 마이데일리
+      [link] 데일리안
+        [image] 데일리안
+      [link] 연합뉴스TV
+        [image] 연합뉴스TV
+      [link] 경인일보
+        [image] 경인일보
+      [link] 경기일보
+        [image] 경기일보
+      [link] 경기신문
+        [image] 경기신문
+      [link] 한경머니
+        [image] 한경머니
+      [link] 씨네21
+        [image] 씨네21
+      [link] 이투데이
+        [image] 이투데이
+      [link] 월간노동법률
+        [image] 월간노동법률
+      [link] MK스포츠
+        [image] MK스포츠
+      [link] 보안뉴스
+        [image] 보안뉴스
+      [radio] 리스트형
+      [radio] 썸네일형
+      [button] 이전 페이지
+      [button] 다음 페이지
+    [region] 쇼핑
+      [Iframe] shoppingbox
+    [region] 추천 관심사
+      [tablist] 
+        [tab] 추천
+        [tab] 카테크
+        [tab] 웹툰
+        [tab] 패션뷰티
+        [tab] 리빙푸드
+        [tab] 책방
+        [tab] 지식
+        [tab] 건강
+      [link] 구독홈
+      [list] 
+        [listitem] 
+          [link] 인하대병원, 7년 연속 의료질평가 최상위 ‘1-가’ 등급 획득 경향신문
+        [listitem] 
+          [link] 남자 근육 성장단계 배달세상 :: 배달대행, 쿠팡이츠, 배민커넥트,카카오퀵,퀵서비스
+        [listitem] 
+          [link] 재생시간 00:34 손에 이런 증상 췌장암 직전 신호 3가지 손에 이런 증상이 있다면 췌장암 직전 신호입니다. 79세 만수 할
+        [listitem] 
+          [Iframe] 광고
+        [listitem] 
+          [link] 재생시간 00:05 몸에 좋다고 먹던 음식이 알고 보면 혈당 스파이크를 부르고 콩팥까지 망가뜨릴 수 있습니다. 호박즙은 콩팥 
+        [listitem] 
+          [link] 재생시간 00:29 매년 X-ray만 찍으셨다고요? 그걸로 충분하지 않을 수 있습니다 #폐암조기발견 #CT #엑스레이 방사선종
+        [listitem] 
+          [link] 재생시간 00:10 뱃살 없는 탄탄한 복부를 원한다면!? #홈트레이닝 #플랭크자세 메디쌤
+        [listitem] 
+          [link] [30대 유방암 항암일지] 유방암 마지막 항암 후 17일간의 기록｜부작용부터 응급실, 그리고 감동의 순간들 죤쟌맘
+      [button] 펼쳐보기
+    [Iframe] 광고
+    [region] 로그인 정보
+      [link] NAVER 로그인
+      [link] 아이디 찾기
+      [link] 비밀번호 찾기
+      [link] 회원가입
+    [Iframe] 광고
+    [Iframe] 광고
+    [Iframe] right-shopping
+    [region] 날씨
+      [link] 날씨
+      [link] 예보 비교
+      [link] 13.5° 맑음 최저기온 8°최고기온 16°
+      [link] 미세좋음 초미세좋음
+      [link] 17시 맑음 12° 19 맑음 8° 21 맑음 6° 23 맑음 6° 1 맑음 5°
+        [list] 
+          [listitem] 
+          [listitem] 
+          [listitem] 
+          [listitem] 
+          [listitem] 
+    [region] 증시
+      [link] 증시
+      [button] 정보 더보기
+      [button] 새로고침
+      [link] 코스피 5,859.08 상승 128.34+2.24%
+      [link] 코스닥 734.36 상승 9.98+1.38%
+      [list] 
+        [listitem] 
+          [link] 삼성전자 상승 1.56% 228,500
+        [listitem] 
+          [link] SK하이닉스 상승 3.53% 1,468,000
+        [listitem] 
+          [link] 영광 상승 27.35% 21,650
+        [listitem] 
+          [link] 인기종목 더보기
+    [Iframe] 광고
+    [region] 위젯
+      [link] 로그인하기
+      [link] 2026년 11월 캘린더 - 이번 달의 일정을 날짜별로 확인할 수 있는 표입니다. 각 셀에는 날짜와 해당 일정이 포함됩니다.
+        [table] 2026년 11월 캘린더 - 이번 달의 일정을 날짜별로 확인할 수 있는 표입니다. 각 셀에는 날짜와 해당 일정이 포함됩니다.
+          [columnheader] 일
+          [columnheader] 월
+          [columnheader] 화
+          [columnheader] 수
+          [columnheader] 목
+          [columnheader] 금
+          [columnheader] 토
+          [cell] 1
+          [cell] 2
+          [cell] 3
+          [cell] 4
+          [cell] 5
+          [cell] 6
+          [cell] 7
+          [cell] 8
+          [cell] 9
+          [cell] 10
+          [cell] 11
+          [cell] 12
+          [cell] 13
+          [cell] 14
+          [cell] 15
+          [cell] 16
+          [cell] 17
+          [cell] 18
+          [cell] 19
+          [cell] 20
+          [cell] 21
+          [cell] 22
+          [cell] 23
+          [cell] 24
+          [cell] 25
+          [cell] 26
+          [cell] 27
+          [cell] 28
+          [cell] 29
+          [cell] 30
+          [cell] 1
+          [cell] 2
+          [cell] 3
+          [cell] 4
+          [cell] 5
+      [button] 다른 추천 보기
+      [list] 
+        [listitem] 
+          [link] 학교 옥상, 나만 아는 비밀 공간에서 재생
+        [listitem] 
+          [link] 뽀글뽀글 실습중인 과학실에서 재생
+        [listitem] 
+          [link] 오후 햇빛이 비치는 교실에서 재생
+      [link] 영어사전
+      [link] Don’t underestimate yourself.
+      [link] 단어 검색하기
+      [link] papago 번역하기
+      [link] 메모 로그인하기
+        [list] 
+          [listitem] 
+          [listitem] 
+          [listitem] 
+      [button] 다음 페이지
+      [link] 모바일 네이버 메인  열기
+    [Iframe] 광고
+  [contentinfo] 
+    [Iframe] AD
+    [Iframe] AD
+    [Iframe] AD
+    [heading] 공지사항
+      [link] 공지사항
+    [link] 서비스 전체보기
+    [heading] Partners
+    [link] 네이버 광고주센터
+    [link] 스마트스토어센터
+    [link] 스마트플레이스
+    [link] 비즈니스 스쿨
+    [link] 네이버 임팩트
+    [heading] Developers
+    [link] 네이버 개발자 센터
+    [link] 오픈 API
+    [link] 오픈소스
+    [link] 네이버 D2
+    [link] 네이버 D2SF
+    [link] 네이버 랩스
+    [link] 웨일 브라우저
+      [image] 웨일 브라우저
+    [link] 이용안내
+    [link] 기업 사이트
+      [image] 기업 사이트
+    [link] 바로가기
+    [heading] 네이버 정책 및 약관
+    [list] 
+      [listitem] 
+        [link] 회사소개
+      [listitem] 
+        [link] 인재채용
+      [listitem] 
+        [link] 제휴제안
+      [listitem] 
+        [link] 이용약관
+      [listitem] 
+        [link] 개인정보처리방침
+      [listitem] 
+        [link] 청소년보호정책
+      [listitem] 
+        [link] 네이버 정책
+      [listitem] 
+        [link] 고객센터
+    [link] ⓒ NAVER Corp.
+[RootWebArea] 광고
+  [link] [광고]센소다인 X 넾다세일 최대 72% 할인, 100만 N포인트 특급 혜택 오늘 저녁 8시 라이브
+    [image] [광고]센소다인 X 넾다세일 최대 72% 할인, 100만 N포인트 특급 혜택 오늘 저녁 8시 라이브
+[RootWebArea] 광고
+  [link] N+스토어 넾다세일 역대급 멤버십 전용 특가 오픈! 오늘 지나면 사라지는 하루 한정 라인업!
+    [image] N+스토어 넾다세일 역대급 멤버십 전용 특가 오픈! 오늘 지나면 사라지는 하루 한정 라인업!
+[RootWebArea] 광고
+  [link] [광고]가전은 엘지닷 블랙프라이데이
+    [image] [광고]가전은 엘지닷 블랙프라이데이
+  [button] 광고 옵션
+[RootWebArea] 광고
+  [link] 요거트 찹쌀떡 맛집 찾아드립니다 AI탭의 효능을 확인해보세요
+[RootWebArea] 광고
+  [link] 광고 이미지 광고 옵션 영어 진짜 못하는 사람 찾습니다. 무작정 하루 1장 하실 분 뇌새김 영어 더 알아보기
+    [image] 광고 이미지
+    [button] 광고 옵션
+[RootWebArea] 광고
+  [link] 영어 조금도 못하는 사람 찾습니다. 광고 이미지 하루 1장 영어 학습지 체험단 모집중 광고 이미지 뇌새김 영어 더 알아보기
+    [image] 광고 이미지
+    [image] 광고 이미지
+  [button] 광고 옵션
+[RootWebArea] 광고
+  [button] Dr.ROOTEM 네이버플러스스토어 광고 이미지 이시형박사의 알부민 프로모션 아이콘 더 알아보기 스토어의 최근 혜택 정보입니다
+    [image] 광고 이미지
+    [image] 프로모션 아이콘
+  [button] 광고 옵션

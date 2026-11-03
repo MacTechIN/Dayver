@@ -1,0 +1,11 @@
+{
+  "browser": { "mode": "launch", "executable_path": "/usr/bin/chromium", "headless": true },
+  "start_url": { "url": "http://localhost:3000/" },
+  "environment": { "locale": "ko-KR", "timezone": "Asia/Seoul", "viewport": {"width": 1440, "height": 1100} },
+  "actions": [
+    { "step_id": "settle", "action": "wait_for_timeout", "duration_ms": 6000 },
+    { "step_id": "feed-tab", "action": "click", "locator": {"kind":"role","role":"tab","name":"건강"}, "timeout_ms": 10000 },
+    { "step_id": "w1", "action": "wait_for_timeout", "duration_ms": 1500 }
+  ],
+  "capture": { "events": ["network", "console", "page-errors"], "after_each_step": ["url"], "at_end": ["url", "screenshot"] }
+}

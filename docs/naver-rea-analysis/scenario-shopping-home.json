@@ -1,0 +1,14 @@
+{
+  "browser": { "mode": "connect", "cdp_endpoint": "http://127.0.0.1:9222", "target_id": "F6D134C4A4ED83F4C9D86092F4066570" },
+  "start_url": { "url": "https://shopping.naver.com/ns/home" },
+  "environment": { "locale": "ko-KR", "timezone": "Asia/Seoul", "viewport": {"width": 1440, "height": 1000}, "service_workers": "allow" },
+  "actions": [
+    { "step_id": "settle", "action": "wait_for_timeout", "duration_ms": 10000 }
+  ],
+  "capture": {
+    "events": ["network", "console", "page-errors"],
+    "network": { "header_values": true, "request_body": true, "response_body": true },
+    "limits": { "max_network_body_bytes": 65536, "max_total_event_allocation_bytes": 67108864 },
+    "at_end": ["url", "storage"]
+  }
+}

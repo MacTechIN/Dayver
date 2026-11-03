@@ -1,0 +1,133 @@
+
+### RESPONSE GET shopv.pstatic.net/web/conex/static-config/latest/real/config/corepack.json ?t  bytes=9954 media=application/json repr=playwright-response-body-bytes
+  shape: {color:{TRADITIONAL_MARKET:{color-point-color:str, color-default-color:str, border-point-color:str, border-default-color:str, background-point-color:str, background-default-color:str, color-point-color-rgb:str, color-default-color-rgb:str, border-point-color-rgb:str, border-default-color-rgb:str, background-point-color-rgb:str, background-default-color-rgb:str, background-gradient-start-color:str, background-gradient-end-color:str}, MARKET:{color-point-color:str, color-default-color:str, border-point-color:str, border-default-color:str, background-point-color:str, background-default-color:str, color-point-color-rgb:str, color-default-color-rgb:str, border-point-color-rgb:str, border-default-color-rgb:str, background-point-color-rgb:str, background-default-color-rgb:str}, NECESSITY:{color-point-color:str, color-default-color:str, border-point-color:str, border-default-color:str, background-point-color:str, background-default-color:str, color-point-color-rgb:str, color-default-color-rgb:str, border-point-color-rgb:str, border-default-color-rgb:str, background-point-color-rgb:str, background-default-color-rgb:str, background-gradient-start-color:str, background-gradient-end-color:str}, DEPARTMENT:{color-point-color:str, color-default-color:str, border-point-color:str, border-default-color:str, background-point-color:str, background-default-color:str, color-point-color-rgb:str, col
+
+### RESPONSE GET api-shopping-kitcat.io.naver.com/abt.js ?env, _t  bytes=2113 media=text/javascript; charset=utf-8 repr=playwright-response-body-bytes
+  text: (function() {   var abtMetaTag = document.createElement('meta');   abtMetaTag.name = "ntm-abt";   abtMetaTag.content = '[{"eid":"NS-SHP-RANK-26","version_id":"7","vid":"43","is_control":false,"id_type":"user_id","extra_param":{"bt":"6","ssuids":["brd","ex_ad_brand","ex_smartplace","intentblock","ktiger","land","review","searchad_ncc_m","shopping","shopping_newshopping"],"stms":["100183655","100407189","100411793"],"platform_type":["mo_web","app"]}},{"eid":"NS-SHP-UX-26-5TH","version_id":"1","vid
+
+### RESPONSE GET shopping.naver.com/api/modules/gnb/banner/shopping-banners ?_v, path  bytes=2 media=application/json; charset=utf-8 repr=playwright-response-body-bytes
+  shape: [0x ]
+
+### RESPONSE GET vertical-api.shopping.naver.com/v2/fe/maintenance/window/under-maintenance  bytes=99 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {isFallback:bool, timestamp:str, content:{data:{}, error:NoneType}}
+  value: {"isFallback":false,"timestamp":"2026-11-02T16:44:23.790808263","content":{"data":{},"error":null}}
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v1/home/layouts/membership-onboarding  bytes=0 media=None repr=playwright-response-body-bytes
+  text: 
+
+### RESPONSE GET shopping.naver.com/api/modules/gnb/category/interest ?_vc_  bytes=2 media=application/json; charset=utf-8 repr=playwright-response-body-bytes
+  shape: [0x ]
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v1/home/layouts/today-events  bytes=9718 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {titleInfo:{title:str, highlights:[1x str]}, demoType:str, events:[12x {serviceEditorPanelId:str, serviceEditorLayoutId:str, serviceEditorContentId:str, imageUrl:str, titleText:str, headerText:str, labelText:str, isArrivalGuarantee:bool, liveStartAt:NoneType, landingUrl:str, nlog:{contentsType:…, shpChannelNo:…, shpChannelProductId:…, shpPromotionId:…, shpPromotionType:…, shpPromotionKey:…, shpPromotionGroupId:…, shpShortclipId:…, shpBroadcastId:…}}]}
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v2/service-shortcuts  bytes=15385 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {primaryVerticalShortcuts:[6x {serviceEditorPanelId:str, serviceEditorLayoutId:str, serviceEditorContentId:str, id:str, type:str, name:str, imageUrl:str, landingUrl:str, mobileLandingUrl:str, serviceCode:str, nudgeOrder:int, nudgeMessage:str, promotionNlog:{promId:…, promGrpId:…, promKey:…, promType:…}}], marketingShortcuts:[3x {serviceEditorPanelId:str, serviceEditorLayoutId:str, serviceEditorContentId:str, id:str, type:str, name:str, imageUrl:str, landingUrl:str, mobileLandingUrl:str, serviceCode:str, nudgeOrder:int, nudgeMessage:str, promotionNlog:{promId:…, promGrpId:…, promKey:…, promType:…}}], verticalShortcuts:[10x {serviceEditorPanelId:str, serviceEditorLayoutId:str, serviceEditorContentId:str, id:str, type:str, name:str, imageUrl:str, landingUrl:str, mobileLandingUrl:str, serviceCode:str, nudgeOrder:NoneType, nudgeMessage:NoneType, promotionNlog:{promId:…, promGrpId:…, promKey:…, promType:…}}]}
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v2/home/layouts/store-curation ?isOptOut  bytes=4292 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {displayType:str, dataType:str, themeId:str, categoryName:str, tagName:str, pageId:str, titleInfos:[1x {title:str, highlights:[1x …]}], historyInfo:NoneType, stores:[8x {channelNo:int, channelUid:str, accountNo:int, channelName:str, channelSiteFullUrl:str, representImageUrl:str, description:str, channelProductIds:[12x …]}]}
+
+### RESPONSE GET shopv.pstatic.net/web/vertical-module/static-config/latest/PRODUCTION/config/footer.json ?t  bytes=641 media=application/json repr=playwright-response-body-bytes
+  shape: {phones:[3x {label:str, number:str, areaId:str, exposure:{default:…, businessMall:…}}]}
+  value: {
+  "phones": [
+    {
+      "label": "쇼핑&페이 구매자 고객센터",
+      "number": "1588-3819",
+      "areaId": "call",
+      "exposure": {
+        "default": true,
+        "businessMall": true
+      }
+    },
+    {
+      "label": "네이버 대표전화",
+      "number": "1588-3820",
+      "areaId": "mainnumber",
+      "exposure": {
+        "default": true,
+        "businessMall": true
+      }
+    },
+    {
+      "label": "네이버플러스 멤버십 전용 고객센터",
+      "number": "1599-1399",
+      "areaId": "mainnumber",
+      "exposure": {
+        "default": true,
+        "businessMall": false
+      }
+    }
+  ]
+}
+
+
+### RESPONSE GET shopping.naver.com/responsive/api/shopv/graphql ?operationName, variables, extensions  bytes=2895 media=application/json repr=playwright-response-body-bytes
+  query: operationName=FetchPayRestrictCategoryMap&variables={}&extensions={"persistedQuery":{"version":1,"sha256Hash":"f2bdb9ba043f529e4d0c847f8ac5e6ea8cbd0f5e2f0c6da7023ee010d81f3fef"}}
+  shape: {data:{fetchPayRestrictCategoryMap:[31x {categoryId:…, pointAccumulationYn:…, __typename:…}]}}
+
+### RESPONSE GET shopping.naver.com/api/delta/experiments  bytes=2232 media=application/json; charset=utf-8 repr=playwright-response-body-bytes
+  shape: {isSuccess:bool, data:[4x {eid:str, version_id:str, vid:str, is_control:bool, id_type:str, is_exp_page:bool, is_treated:bool, treated_type:str, extra_param:{bt:…, ssuids:…, stms:…, platform_type:…}}]}
+
+### RESPONSE GET shopping.naver.com/api/modules/gnb/category/list ?_vc_, newShopping  bytes=44145 media=application/json; charset=utf-8 repr=playwright-response-body-bytes
+  shape: {categories:[27x {id:str, name:str, type:str, children:[10x …], exposedVerticals:[3x …]}], banners:[17x {id:str, exposureStartAt:str, slotId:str, exposureEndAt:str, narrowContent:{imageUrl:…, altText:…, landingUrl:…, backgroundColor:…}, category:[1x …]}]}
+
+### REQUEST POST vertical-api.shopping.naver.com/v3/web/v1/branch-products/options  bytes=157 media=application/json;charset=UTF-8 repr=browser-exposed-request-bytes
+  query: 
+  shape: [2x {channelProductId:int, subVertical:str, branchId:str}]
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v1/branches/sub-vertical-mapping ?longitude, latitude  bytes=2105 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: [29x {subVertical:str, branchId:str, isRepresent:bool}]
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v1/branches/sub-vertical-mapping ?latitude, longitude  bytes=2094 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: [29x {subVertical:str, branchId:str, isRepresent:bool}]
+
+### RESPONSE GET shopv.pstatic.net/web/r/20261028105322/_next/static/css/ce9070f849ff786e.css  bytes=14359 media=text/css repr=playwright-response-body-bytes
+  text: @keyframes error_responsive_loader__9uYh0{0%{background-position:-100% 0}to{background-position:100% 0}}.error_responsive_content_error__Nd9aD{background-color:#e9ecef;font-family:Helvetica Neue,AppleSDGothicNeo,sans-serif}.error_responsive_content_error__Nd9aD .error_responsive_head__O9VZx{padding:45px 0 14px;font-weight:400;font-size:17px;line-height:1.24em;letter-spacing:-1px;text-align:center;color:#2f2f2f}.error_responsive_content_error__Nd9aD .error_responsive_head__O9VZx em{font-weight:40
+
+### RESPONSE GET shopv.pstatic.net/web/lottie/2026/1012011247.lottie  bytes=8778 media=application/octet-stream repr=playwright-response-body-bytes
+  text: PK     �QL]�5W       manifest.json{"version":"1.0","revision":1,"keywords":"dotLottie","author":"LottieFiles","generator":"@dotlottie/dotlottie-js@0.8.1","animations":[{"id":"logo_pc_1x.json","direction":1,"speed":1,"playMode":"normal","loop":true,"autoplay":true,"hover":false,"intermission":0}]}PK    �QL]��$0=   ��     animations/logo_pc_1x.json.json�]ˎ$IV��R�#C�~��X4�`Sj����*M��Y�L�U��@�;V�	H�|,g>b�9���+"2��U��,wsw3�v��ﵟ�x�(W�*Y,o>.^&���i�������׿Y�� �}�xY���wx��wߥ��
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v3/rmid/representative  bytes=22652 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {zipCode:str, rmidItems:[193x {rmid:str, orderDeadline:str, arrivalDatetime:str, tagType:str}]}
+
+### RESPONSE POST vertical-api.shopping.naver.com/v3/web/v1/branch-products/options  bytes=374 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: [2x {channelProductId:int, optionId:int, dispSalePrice:int, dispDiscountedSalePrice:int, dispDiscountedRatio:float, soldOut:bool, deliveryCost:NoneType, bagCost:NoneType}]
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v1/home/products ?channelProductIds, channelProductIds, channelProductIds, channelProductIds, channelProductIds, channelProductIds, channelProductIds, channelProductIds, channelProductIds, channelProductIds, channelProductIds, channelProductIds  bytes=31563 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: [12x {channelProductId:int, channelMeta:{accountNo:int, channelNo:int, channelUid:str, channelName:str, channelSiteFullUrl:str, channelServiceType:str, smartStoreChannelType:NoneType}, productMeta:{productNo:int, name:str, imageUrl:str, productUrl:str, salePrice:int, dispSalePrice:int, authenticationType:str, channelProductDisplayStatusType:str, productStatusType:str, saleType:str, categoryWholeIds:[4x …], purchaseQuantityInfo:NoneType, loungeProductType:NoneType, epInfo:{naverShoppingRegistration:…, naverShoppingExposure:…, enuriRegistration:…, danawaRegistration:…, syncNvMid:…}}, deliveryMeta:{baseFee:int, deliveryAttributeType:str, deliveryFeePayType:NoneType, deliveryFeeType:str, installationFee:bool, freeConditionalAmount:NoneType, deliveryMethodTypes:NoneType, installation:NoneType, overseasShipping:bool, freeReturnInsurance:bool, thisDayDispatchBasisTime:str, isFreeDelivery:bool, isTodayDelivery:bool, isTodayDeliveryByProduct:bool, isHopeDelivery:bool, isArrivalGuarantee:bool, …}, reviewMeta:{totalReviewCount:int, averageReviewScore:float}, benefitMeta:{dispDiscountedSalePrice:int, dispDiscountedRatio:float}, productAdditional:{dispName:str, promotionTags:[0x ], videoId:NoneType, videoThumbnailUrl:NoneType, isRental:bool, isRegularSubscription:bool, isUsed:bool, isPreOrder:bool, rentalMonthlyFee:NoneType, discountedRentalMonthlyFee:NoneType, rentalMonthlyFeeDiscountedRat
+
+### REQUEST POST vertical-api.shopping.naver.com/v3/web/v1/products/thumbnail-tags  bytes=628 media=application/json;charset=UTF-8 repr=browser-exposed-request-bytes
+  query: 
+  shape: {pickTypes:[5x str], exposureScreenPathType:str, products:[9x {channelNo:int, channelProductId:int}]}
+  value: {"pickTypes":["LOUNGE","PROMOTION","VOUCHER","ARRIVAL_GUARANTEE","MEMBERSHIP_EXCLUSIVE"],"exposureScreenPathType":"HOME_TAB","products":[{"channelNo":100151792,"channelProductId":8529104077},{"channelNo":100357138,"channelProductId":8460894596},{"channelNo":1100137471,"channelProductId":13784669390},{"channelNo":102749607,"channelProductId":12569196475},{"channelNo":500192432,"channelProductId":487019858},{"channelNo":100384161,"channelProductId":4560260170},{"channelNo":102655931,"channelProductId":12273073824},{"channelNo":102655931,"channelProductId":12274548547},{"channelNo":100622170,"channelProductId":9494307249}]}
+
+### REQUEST POST vertical-api.shopping.naver.com/v3/web/v1/products/display-infos  bytes=445 media=application/json;charset=UTF-8 repr=browser-exposed-request-bytes
+  query: 
+  shape: {pickTypes:[7x str], exposureScreenPathType:str, products:[4x {channelNo:int, channelProductId:int, price:int}]}
+  value: {"pickTypes":["PERSONALIZATION","LOUNGE","PROMOTION","VOUCHER","ARRIVAL_GUARANTEE","MEMBERSHIP_EXCLUSIVE","SUPER_DANGOL"],"exposureScreenPathType":"HOME_TAB","products":[{"channelNo":500178760,"channelProductId":9396508535,"price":59000},{"channelNo":500178760,"channelProductId":11386234309,"price":59000},{"channelNo":500178760,"channelProductId":12552390632,"price":59000},{"channelNo":500178760,"channelProductId":4089727741,"price":59000}]}
+
+### RESPONSE POST vertical-api.shopping.naver.com/v3/web/v1/products/thumbnail-tags  bytes=2689 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {8529104077:{type:str, detailType:str, title:str, color:str, imageUrl:str, promotionTagAdditional:{key:int, campaignId:str}}, 8460894596:{type:str, detailType:str, title:str, color:str, imageUrl:str, promotionTagAdditional:{key:int, campaignId:str}}, 13784669390:{type:str, detailType:str, title:str, color:str, imageUrl:str, promotionTagAdditional:{key:int, campaignId:str}}, 12569196475:{type:str, detailType:str, title:str, color:str, imageUrl:str, promotionTagAdditional:{key:int, campaignId:str}}, 487019858:{type:str, detailType:str, title:str, color:str, imageUrl:str, promotionTagAdditional:{key:int, campaignId:str}}, 4560260170:{type:str, detailType:str, title:str, color:str, imageUrl:str, promotionTagAdditional:{key:int, campaignId:str}}, 12273073824:{type:str, detailType:str, title:str, color:str, imageUrl:NoneType, promotionTagAdditional:NoneType}, 12274548547:{type:str, detailType:str, title:str, color:str, imageUrl:NoneType, promotionTagAdditional:NoneType}, 9494307249:{type:str, detailType:str, title:str, color:str, imageUrl:str, promotionTagAdditional:{key:int, campaignId:str}}}
+
+### RESPONSE POST vertical-api.shopping.naver.com/v3/web/v1/products/display-infos  bytes=1527 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {9396508535:{tags:[1x {type:…, detailType:…, title:…, color:…, imageUrl:…, promotionTagAdditional:…}], myDiscountPrice:NoneType, points:NoneType}, 11386234309:{tags:[1x {type:…, detailType:…, title:…, color:…, imageUrl:…, promotionTagAdditional:…}], myDiscountPrice:NoneType, points:NoneType}, 12552390632:{tags:[1x {type:…, detailType:…, title:…, color:…, imageUrl:…, promotionTagAdditional:…}], myDiscountPrice:NoneType, points:NoneType}, 4089727741:{tags:[1x {type:…, detailType:…, title:…, color:…, imageUrl:…, promotionTagAdditional:…}], myDiscountPrice:NoneType, points:NoneType}}
+  value: {"9396508535":{"tags":[{"type":"PROMOTION","detailType":"PROMOTION__SHOPPING_FESTA","title":"넾다세일","color":"#000000","imageUrl":"https://shop-phinf.pstatic.net/20260915_189/1789470132242qPzzg_PNG/PromotionLogo_E18482E185A6E18781E18483E185A1E18489E185A6E1.png","promotionTagAdditional":{"key":6,"campaignId":"SHOPPING_FESTA_10929762"}}],"myDiscountPrice":null,"points":null},"11386234309":{"tags":[{"type":"PROMOTION","detailType":"PROMOTION__SHOPPING_FESTA","title":"넾다세일","color":"#000000","imageUrl":"https://shop-phinf.pstatic.net/20260915_189/1789470132242qPzzg_PNG/PromotionLogo_E18482E185A6E18781E18483E185A1E18489E185A6E1.png","promotionTagAdditional":{"key":6,"campaignId":"SHOPPING_FESTA_10929762"}}],"myDiscountPrice":null,"points":null},"12552390632":{"tags":[{"type":"PROMOTION","detailType":"PROMOTION__SHOPPING_FESTA","title":"넾다세일","color":"#000000","imageUrl":"https://shop-phinf.pstatic.net/20260915_189/1789470132242qPzzg_PNG/PromotionLogo_E18482E185A6E18781E18483E185A1E18489E185A6E1.png","promotionTagAdditional":{"key":6,"campaignId":"SHOPPING_FESTA_10929762"}}],"myDiscountPrice":null,"points":null},"4089727741":{"tags":[{"type":"PROMOTION","detailType":"PROMOTION__SHOPPING_FE
+
+### RESPONSE GET m.shopping.naver.com/remote_frame.html  bytes=824 media=text/html; charset=utf-8 repr=playwright-response-body-bytes
+  text: <!DOCTYPE html> <html lang="ko"> <head>     <title>Remote Frame Storage</title>     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>     <meta http-equiv="Content-Script-Type" content="text/javascript"> </head> <body> <script type="text/javascript" src="remote_frame_storage.js"></script> <script type="text/javascript">     var oRFS = new nhn.mobile.fs.RemoteFrameStorage({         bCheckDomain : true,         aWhiteDomainList : [             "shopping.naver.com",             "
+
+### REQUEST POST vertical-api.shopping.naver.com/v3/web/v1/products/display-infos  bytes=445 media=application/json;charset=UTF-8 repr=browser-exposed-request-bytes
+  query: 
+  shape: {pickTypes:[7x str], exposureScreenPathType:str, products:[4x {channelNo:int, channelProductId:int, price:int}]}
+  value: {"pickTypes":["PERSONALIZATION","LOUNGE","PROMOTION","VOUCHER","ARRIVAL_GUARANTEE","MEMBERSHIP_EXCLUSIVE","SUPER_DANGOL"],"exposureScreenPathType":"HOME_TAB","products":[{"channelNo":500178760,"channelProductId":9396508535,"price":59000},{"channelNo":500178760,"channelProductId":11386234309,"price":59000},{"channelNo":500178760,"channelProductId":12552390632,"price":59000},{"channelNo":500178760,"channelProductId":4089727741,"price":59000}]}
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v2/advertisement ?queryParams  bytes=2256 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {payload:{requestId:str, head:{version:str, description:str}, eventTracking:{ackImpressions:[1x …], activeViewImpressions:[1x …], clicks:[1x …], completions:[1x …], attached:[1x …], renderedImpressions:[1x …], viewableImpressions:[1x …], loadErrors:[1x …], startErrors:[1x …], lazyRenderMediaFailed:[1x …], mute:[1x …], close:[1x …]}, adUnit:str, randomNumber:int, adDivId:str, ads:[1x {encrypted:…, connectionType:…, adProviderName:…, layoutType:…, creativeType:…, renderType:…, eventTracking:…, adInfo:…}]}, additionalInfo:{adCount:int, adDuplicate:{advertiserDomains:NoneType, adDuplicationKeys:NoneType}}}
+
+### RESPONSE GET vertical-api.shopping.naver.com/v3/web/v2/advertisement ?queryParams  bytes=2256 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {payload:{requestId:str, head:{version:str, description:str}, eventTracking:{ackImpressions:[1x …], activeViewImpressions:[1x …], clicks:[1x …], completions:[1x …], attached:[1x …], renderedImpressions:[1x …], viewableImpressions:[1x …], loadErrors:[1x …], startErrors:[1x …], lazyRenderMediaFailed:[1x …], mute:[1x …], close:[1x …]}, adUnit:str, randomNumber:int, adDivId:str, ads:[1x {encrypted:…, connectionType:…, adProviderName:…, layoutType:…, creativeType:…, renderType:…, eventTracking:…, adInfo:…}]}, additionalInfo:{adCount:int, adDuplicate:{advertiserDomains:NoneType, adDuplicationKeys:NoneType}}}
+
+### RESPONSE POST vertical-api.shopping.naver.com/v3/web/v1/products/display-infos  bytes=1527 media=application/json;charset=UTF-8 repr=playwright-response-body-bytes
+  shape: {9396508535:{tags:[1x {type:…, detailType:…, title:…, color:…, imageUrl:…, promotionTagAdditional:…}], myDiscountPrice:NoneType, points:NoneType}, 11386234309:{tags:[1x {type:…, detailType:…, title:…, color:…, imageUrl:…, promotionTagAdditional:…}], myDiscountPrice:NoneType, points:NoneType}, 12552390632:{tags:[1x {type:…, detailType:…, title:…, color:…, imageUrl:…, promotionTagAdditional:…}], myDiscountPrice:NoneType, points:NoneType}, 4089727741:{tags:[1x {type:…, detailType:…, title:…, color:…, imageUrl:…, promotionTagAdditional:…}], myDiscountPrice:NoneType, points:NoneType}}
+  value: {"9396508535":{"tags":[{"type":"PROMOTION","detailType":"PROMOTION__SHOPPING_FESTA","title":"넾다세일","color":"#000000","imageUrl":"https://shop-phinf.pstatic.net/20260915_189/1789470132242qPzzg_PNG/PromotionLogo_E18482E185A6E18781E18483E185A1E18489E185A6E1.png","promotionTagAdditional":{"key":6,"campaignId":"SHOPPING_FESTA_10929762"}}],"myDiscountPrice":null,"points":null},"11386234309":{"tags":[{"type":"PROMOTION","detailType":"PROMOTION__SHOPPING_FESTA","title":"넾다세일","color":"#000000","imageUrl":"https://shop-phinf.pstatic.net/20260915_189/1789470132242qPzzg_PNG/PromotionLogo_E18482E185A6E18781E18483E185A1E18489E185A6E1.png","promotionTagAdditional":{"key":6,"campaignId":"SHOPPING_FESTA_10929762"}}],"myDiscountPrice":null,"points":null},"12552390632":{"tags":[{"type":"PROMOTION","detailType":"PROMOTION__SHOPPING_FESTA","title":"넾다세일","color":"#000000","imageUrl":"https://shop-phinf.pstatic.net/20260915_189/1789470132242qPzzg_PNG/PromotionLogo_E18482E185A6E18781E18483E185A1E18489E185A6E1.png","promotionTagAdditional":{"key":6,"campaignId":"SHOPPING_FESTA_10929762"}}],"myDiscountPrice":null,"points":null},"4089727741":{"tags":[{"type":"PROMOTION","detailType":"PROMOTION__SHOPPING_FE

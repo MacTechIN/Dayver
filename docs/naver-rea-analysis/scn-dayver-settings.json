@@ -1,0 +1,20 @@
+{
+  "browser": { "mode": "launch", "executable_path": "/usr/bin/chromium", "headless": true },
+  "command_timeout_ms": 60000,
+  "start_url": { "url": "http://localhost:3000/login?next=/me/settings" },
+  "environment": { "locale": "ko-KR", "timezone": "Asia/Seoul", "viewport": {"width": 1440, "height": 1000} },
+  "actions": [
+    { "step_id": "login-id", "action": "fill", "locator": {"kind":"css","selector":"#username"}, "value": {"source":"literal","value":"haru"}, "timeout_ms": 20000 },
+    { "step_id": "login-pw", "action": "fill", "locator": {"kind":"css","selector":"#password"}, "value": {"source":"literal","value":"dayver1234"}, "timeout_ms": 20000 },
+    { "step_id": "login-submit", "action": "press", "locator": {"kind":"css","selector":"#password"}, "key": "Enter", "timeout_ms": 30000 },
+    { "step_id": "settle", "action": "wait_for_timeout", "duration_ms": 4000 },
+    { "step_id": "dark", "action": "click", "locator": {"kind":"role","role":"button","name":"다크"}, "timeout_ms": 20000 },
+    { "step_id": "w1", "action": "wait_for_timeout", "duration_ms": 2500 },
+    { "step_id": "nick", "action": "fill", "locator": {"kind":"css","selector":"#nickname"}, "value": {"source":"literal","value":"하루(REA)"}, "timeout_ms": 20000 },
+    { "step_id": "save", "action": "click", "locator": {"kind":"role","role":"button","name":"프로필 저장"}, "timeout_ms": 20000 },
+    { "step_id": "w2", "action": "wait_for_timeout", "duration_ms": 3000 },
+    { "step_id": "main-goto", "action": "goto", "destination": {"url":"http://localhost:3000/"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "w3", "action": "wait_for_timeout", "duration_ms": 4000 }
+  ],
+  "capture": { "events": ["network", "page-errors"], "after_each_step": ["url"], "at_end": ["url", "screenshot", "storage"] }
+}

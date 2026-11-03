@@ -1,0 +1,21 @@
+{
+  "browser": { "mode": "connect", "cdp_endpoint": "http://127.0.0.1:9222", "target_id": "F6D134C4A4ED83F4C9D86092F4066570" },
+  "start_url": { "url": "https://shopping.naver.com/ns/home" },
+  "environment": { "locale": "ko-KR", "timezone": "Asia/Seoul", "viewport": {"width": 1440, "height": 1000}, "service_workers": "allow" },
+  "actions": [
+    { "step_id": "settle", "action": "wait_for_timeout", "duration_ms": 6000 },
+    { "step_id": "category-open", "action": "click", "locator": {"kind":"role","role":"button","name":"카테고리"}, "timeout_ms": 10000 },
+    { "step_id": "w1", "action": "wait_for_timeout", "duration_ms": 2000 },
+    { "step_id": "search-fill", "action": "fill", "locator": {"kind":"role","role":"textbox","name":"검색어 입력"}, "value": {"source":"literal","value":"노트북"}, "timeout_ms": 10000 },
+    { "step_id": "w2", "action": "wait_for_timeout", "duration_ms": 2500 },
+    { "step_id": "search-enter", "action": "press", "locator": {"kind":"role","role":"textbox","name":"검색어 입력"}, "key": "Enter", "timeout_ms": 10000 },
+    { "step_id": "w3", "action": "wait_for_timeout", "duration_ms": 7000 }
+  ],
+  "capture": {
+    "events": ["network", "console", "page-errors"],
+    "network": { "header_values": false, "request_body": true, "response_body": true },
+    "limits": { "max_network_body_bytes": 65536, "max_total_event_allocation_bytes": 134217728 },
+    "after_each_step": ["url"],
+    "at_end": ["url", "accessibility"]
+  }
+}

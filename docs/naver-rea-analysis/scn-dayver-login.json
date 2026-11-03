@@ -1,0 +1,20 @@
+{
+  "browser": { "mode": "launch", "executable_path": "/usr/bin/chromium", "headless": true },
+  "start_url": { "url": "http://127.0.0.1:3000/login?next=/" },
+  "environment": { "locale": "ko-KR", "timezone": "Asia/Seoul", "viewport": {"width": 1440, "height": 1100} },
+  "actions": [
+    { "step_id": "fill-id", "action": "fill", "locator": {"kind":"css","selector":"#username"}, "value": {"source":"literal","value":"haru"}, "timeout_ms": 10000 },
+    { "step_id": "fill-pw", "action": "fill", "locator": {"kind":"css","selector":"#password"}, "value": {"source":"literal","value":"dayver1234"}, "timeout_ms": 10000 },
+    { "step_id": "submit", "action": "press", "locator": {"kind":"css","selector":"#password"}, "key": "Enter", "timeout_ms": 15000 },
+    { "step_id": "wait-main", "action": "wait_for", "locator": {"kind":"css","selector":"#widget table"}, "state": "visible", "timeout_ms": 20000 },
+    { "step_id": "feed-tab", "action": "click", "locator": {"kind":"role","role":"tab","name":"건강"}, "timeout_ms": 10000 },
+    { "step_id": "w1", "action": "wait_for_timeout", "duration_ms": 1500 },
+    { "step_id": "news-tab", "action": "click", "locator": {"kind":"role","role":"tab","name":"경제"}, "timeout_ms": 10000 },
+    { "step_id": "w2", "action": "wait_for_timeout", "duration_ms": 1500 }
+  ],
+  "capture": {
+    "events": ["network", "console", "page-errors"],
+    "after_each_step": ["url"],
+    "at_end": ["url", "accessibility", "screenshot"]
+  }
+}

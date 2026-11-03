@@ -1,0 +1,13 @@
+{
+  "browser": { "mode": "launch", "executable_path": "/usr/bin/chromium", "headless": true },
+  "command_timeout_ms": 60000,
+  "start_url": { "url": "http://localhost:3000/" },
+  "environment": { "locale": "ko-KR", "timezone": "Asia/Seoul", "viewport": {"width": 1440, "height": 1000} },
+  "actions": [
+    { "step_id": "set-dark", "action": "request", "method": "POST", "path": "/api/cookie/theme", "json": { "theme": "dark" }, "expected_status": [200], "timeout_ms": 20000 },
+    { "step_id": "set-font", "action": "request", "method": "POST", "path": "/api/cookie/font", "json": { "font": "large" }, "expected_status": [200], "timeout_ms": 20000 },
+    { "step_id": "reload", "action": "goto", "destination": {"url":"http://localhost:3000/"}, "wait_until": "load", "timeout_ms": 60000 },
+    { "step_id": "settle", "action": "wait_for_timeout", "duration_ms": 4000 }
+  ],
+  "capture": { "events": ["page-errors"], "after_each_step": ["url"], "at_end": ["url", "screenshot"] }
+}

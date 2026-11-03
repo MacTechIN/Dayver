@@ -1,0 +1,112 @@
+{
+ "browser": {
+  "mode": "launch",
+  "executable_path": "/usr/bin/chromium",
+  "headless": true
+ },
+ "start_url": {
+  "url": "https://www.naver.com/"
+ },
+ "environment": {
+  "locale": "ko-KR",
+  "timezone": "Asia/Seoul",
+  "viewport": {
+   "width": 1440,
+   "height": 1000
+  }
+ },
+ "actions": [
+  {
+   "step_id": "settle",
+   "action": "wait_for_timeout",
+   "duration_ms": 5000
+  },
+  {
+   "step_id": "shortcut-expand",
+   "action": "click",
+   "locator": {
+    "kind": "role",
+    "role": "button",
+    "name": "바로가기 펼침"
+   },
+   "timeout_ms": 10000
+  },
+  {
+   "step_id": "w3",
+   "action": "wait_for_timeout",
+   "duration_ms": 1500
+  },
+  {
+   "step_id": "interest-tab",
+   "action": "click",
+   "locator": {
+    "kind": "role",
+    "role": "tab",
+    "name": "카테크"
+   },
+   "timeout_ms": 10000
+  },
+  {
+   "step_id": "w4",
+   "action": "wait_for_timeout",
+   "duration_ms": 2500
+  },
+  {
+   "step_id": "search-fill",
+   "action": "fill",
+   "locator": {
+    "kind": "role",
+    "role": "combobox",
+    "name": "검색어를 입력해 주세요."
+   },
+   "value": {
+    "source": "literal",
+    "value": "아이폰 17"
+   },
+   "timeout_ms": 10000
+  },
+  {
+   "step_id": "w5",
+   "action": "wait_for_timeout",
+   "duration_ms": 2500
+  },
+  {
+   "step_id": "search-enter",
+   "action": "press",
+   "locator": {
+    "kind": "role",
+    "role": "combobox",
+    "name": "검색어를 입력해 주세요."
+   },
+   "key": "Enter",
+   "timeout_ms": 10000
+  },
+  {
+   "step_id": "w6",
+   "action": "wait_for_timeout",
+   "duration_ms": 5000
+  }
+ ],
+ "capture": {
+  "events": [
+   "network",
+   "console",
+   "page-errors"
+  ],
+  "network": {
+   "header_values": false,
+   "request_body": true,
+   "response_body": true
+  },
+  "limits": {
+   "max_network_body_bytes": 32768,
+   "max_total_event_allocation_bytes": 67108864
+  },
+  "after_each_step": [
+   "url"
+  ],
+  "at_end": [
+   "url"
+  ]
+ }
+}
